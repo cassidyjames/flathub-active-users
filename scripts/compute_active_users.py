@@ -20,11 +20,12 @@ PUBLIC_API_DIR = pathlib.Path(__file__).resolve().parent.parent / "public" / "ap
 
 REFS = ("org.freedesktop.Platform.GL.default", "org.freedesktop.Platform")
 
-# A month, so the result reads as a monthly active device count
-WINDOW_DAYS = 28
+# Each release is measured over its whole life, so a release that stayed current
+# for two months counts every installation that updated in those two months
+MIN_WINDOW_DAYS = 1
 
 # How far back a measurement still counts towards "the floor right now"
-TRAILING_DAYS = 180
+TRAILING_DAYS = 365
 
 # A release typically arrives on Flathub some days after tagged; when it does,
 # updates to that branch jump roughly tenfold for a day or two
@@ -109,15 +110,14 @@ def build_measurements(
     daily_stats: dict[str, dict],
     releases: dict[str, list[dict]],
     refs: tuple[str, ...] = REFS,
-    window: int = WINDOW_DAYS,
+    min_days: int = MIN_WINDOW_DAYS,
 ) -> list[dict]:
-    """One measurement per (ref, branch, release) that was the latest for a full
-    window.
+    """One measurement per (ref, branch, release), spanning the whole time that
+    release was the newest one available for its branch.
 
-    A release is skipped if: another lands earlier than the window close since
-    the window would span two releases, when it's a branch's first release since
-    there's nothing to update from, or when the daily stats are missing a day
-    inside the window which would cause it to be undercounted.
+    A release is skipped when it's a branch's first release since there's
+    nothing to update from, or when the daily stats are missing a day inside the
+    window which would cause it to be undercounted.
     """
     measurements = []
     for branch, points in releases.items():
@@ -126,7 +126,8 @@ def build_measurements(
         for current, start, next_start in zip(points, arrivals, arrivals[1:]):
             if current["point"] == 0:
                 continue
-            if (next_start - start).days < window:
+            window = (next_start - start).days
+            if window < min_days:
                 continue
             end = start + datetime.timedelta(days=window)
             for ref in refs:
@@ -143,6 +144,7 @@ def build_measurements(
                         "tag_date": current["date"],
                         "window_start": start.isoformat(),
                         "window_end": end.isoformat(),
+                        "window_days": window,
                     }
                 )
     measurements.sort(key=lambda m: (m["date"], m["ref"], m["branch"]))
@@ -177,9 +179,8 @@ def main() -> int:
 
     active_users = {
         "generated_at": generated_at,
-        "window_days": WINDOW_DAYS,
         "active_users": None,
-        "note": "No release has stayed current long enough to measure yet.",
+        "note": "No release has been superseded yet, so there's nothing to measure.",
     }
     if headline:
         active_users |= {
@@ -188,7 +189,11 @@ def main() -> int:
             "ref": headline["ref"],
             "branch": headline["branch"],
             "based_on_release": headline["release"],
-            "window": {"start": headline["window_start"], "end": headline["window_end"]},
+            "window": {
+                "start": headline["window_start"],
+                "end": headline["window_end"],
+                "days": headline["window_days"],
+            },
             "note": None,
         }
 
@@ -198,7 +203,6 @@ def main() -> int:
         json.dumps(
             {
                 "generated_at": generated_at,
-                "window_days": WINDOW_DAYS,
                 "trailing_days": TRAILING_DAYS,
                 "refs": list(REFS),
                 "trend": trend,
@@ -213,7 +217,7 @@ def main() -> int:
         print(
             f"at least {headline['active_users']:,} active devices as of {headline['date']} "
             f"[{headline['ref']}/{headline['branch']}, release {headline['release']}, "
-            f"{headline['window_start']} + {WINDOW_DAYS}d]"
+            f"{headline['window_start']} + {headline['window_days']}d]"
         )
     else:
         print("no measurable release windows yet")

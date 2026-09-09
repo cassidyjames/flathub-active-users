@@ -144,13 +144,14 @@
   <body>
     <main>
       <h1>Estimated Active Flathub Users</h1>
-      <p>Conservative automated estimate based on <a href="https://cassidyjames.com">Cassidy</a>’s manual approach used for <a href="https://docs.flathub.org/blog/over-one-million-active-users-and-growing">“Over One Million Active Users, and Growing”</a> and <a href="https://docs.flathub.org/blog/2-billion-downloads-2024">“2 Billion Downloads & Other Milestones from 2024 So Far”</a>. Derived from the number of updates to the <a href="https://freedesktop-sdk.gitlab.io/">FreeDesktop SDK platform</a> served by Flathub during the first 28 days of each patch release.</p>
+      <p>Conservative automated estimate based on <a href="https://cassidyjames.com">Cassidy</a>’s manual approach used for <a href="https://docs.flathub.org/blog/over-one-million-active-users-and-growing">“Over One Million Active Users, and Growing”</a> and <a href="https://docs.flathub.org/blog/2-billion-downloads-2024">“2 Billion Downloads & Other Milestones from 2024 So Far”</a>. Derived from the number of updates to the <a href="https://freedesktop-sdk.gitlab.io/">FreeDesktop SDK platform</a> served by Flathub over the whole time each patch release was the newest one available.</p>
 
       <div class="card" id="headline">Loading&hellip;</div>
 
       <section>
         <h2>Active users over time</h2>
-        <p>Each point is a count of the FreeDesktop SDK platform updates to that branch’s patch release delivered by Flathub in its first 28 days; patch release lifecycles less than 28 days are omitted. Since multiple branches of the FreeDesktop SDK are actively used by different apps at the same time, summing them would potentially over-count users; instead, estimated active users is based on the highest peak of updates from the past six months.</p>
+        <p>Each point is a count of the FreeDesktop SDK platform updates to that branch’s patch release delivered by Flathub for as long as that release was the newest one available—so a release that stayed current for two months counts every installation that updated in those two months. Since multiple branches of the FreeDesktop SDK are actively used by different apps at the same time, summing them would potentially over-count users; instead, estimated active users is based on the highest peak of updates from the past six months.</p>
+        <p>Because release cadence varies, the window behind each point does too; hover a point to see how long its release was current. A longer window catches installations that update infrequently, so points aren’t directly comparable to each other.</p>
         <div class="card chart-card"><canvas id="chart"></canvas></div>
       </section>
 
@@ -183,7 +184,7 @@
       function describe(point) {
         return [
           `${point.ref}/${point.branch}`,
-          `28 days of ${point.release}`,
+          `${point.release}, current for ${point.window_days} days`,
         ];
       }
 
@@ -198,7 +199,7 @@
           el.innerHTML = `
             <span class="number">${full.format(data.active_users)}</span>
             <span class="label">active users</span>
-            <small>Estimate as of ${day.format(parseDay(data.as_of))}</small>`;
+            <small>Estimate as of ${day.format(parseDay(data.as_of))}, from ${data.window.days} days of ${data.based_on_release}</small>`;
         } catch (err) {
           el.textContent = `Couldn’t load the estimate: ${err.message}`;
         }
@@ -233,6 +234,7 @@
           borderWidth: 2,
           pointRadius: 4,
           pointHoverRadius: 6,
+          showLine: false,
           tension: 0.2,
           clip: 8,
         };
