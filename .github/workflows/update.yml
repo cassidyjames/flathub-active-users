@@ -1,0 +1,54 @@
+name: Update active-users stats
+
+on:
+  schedule:
+    # Once a day is plenty: hub.flathub.org publishes a day's file shortly
+    # after it ends, and the number itself only moves when a release that
+    # stayed current for 28 days finishes its window.
+    - cron: "17 6 * * *"
+  push:
+    branches: [main]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch new daily stats
+        run: python3 scripts/fetch_daily_stats.py
+
+      - name: Fetch FreeDesktop SDK release dates
+        run: python3 scripts/fetch_releases.py
+
+      - name: Compute active-users metric
+        run: python3 scripts/compute_active_users.py
+
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ public/api/
+          git diff --cached --quiet && echo "no changes" && exit 0
+          git commit -m "data: update daily stats and active-users metric"
+          git push
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+      - uses: actions/deploy-pages@v4

@@ -1,0 +1,14 @@
+{
+  "active_users": 3790063,
+  "as_of": "2026-06-20",
+  "based_on_release": "25.08.12",
+  "branch": "25.08",
+  "generated_at": "2026-09-09T01:30:03.435029+00:00",
+  "note": null,
+  "ref": "org.freedesktop.Platform.GL.default",
+  "window": {
+    "end": "2026-06-20",
+    "start": "2026-05-23"
+  },
+  "window_days": 28
+}

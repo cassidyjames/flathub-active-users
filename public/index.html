@@ -1,0 +1,313 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Estimated Active Flathub Users</title>
+    <link rel="stylesheet" href="https://static.gnome.org/css/inter.css" />
+    <style>
+      :root {
+        color-scheme: light dark;
+        font-size: 4vw;
+
+        --bg: #ffffff;
+        --fg: #1a1a1a;
+        --muted: #6b7280;
+        --card-bg: #f5f5f7;
+        --accent: #4a90d9;
+        --border: #e2e2e2;
+
+        --branch-0: #7f4bc5;
+        --branch-1: #c90493;
+        --branch-2: #e2162b;
+        --branch-3: #d77a04;
+        --branch-4: #b3ba0c;
+        --branch-5: #09a804;
+        --branch-6: #048265;
+        --branch-7: #04baba;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #16181d;
+          --fg: #f0f0f0;
+          --muted: #9aa1ab;
+          --card-bg: #1f2229;
+          --accent: #6cb0f2;
+          --border: #2c2f36;
+
+          --branch-0: #8625e4;
+          --branch-1: #dc37a5;
+          --branch-2: #d40123;
+          --branch-3: #ce7401;
+          --branch-4: #646904;
+          --branch-5: #09b304;
+          --branch-6: #037653;
+          --branch-7: #09aaaa;
+        }
+      }
+
+      @media (min-width: 320px) {
+        :root {
+          font-size: 14px;
+        }
+      }
+
+      @media (min-width: 640px) {
+        :root {
+          font-size: 16px;
+        }
+      }
+
+      @media (min-width: 1280px) {
+        :root {
+          font-size: 18px;
+        }
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--fg);
+        font-family: InterVariable, sans-serif;
+      }
+
+      main {
+        max-width: 1024px;
+        margin: 0 auto;
+        padding: 2rem 1.25rem 4rem;
+      }
+
+      .card {
+        background: var(--card-bg);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        margin-block: 2rem;
+        padding: 1rem;
+      }
+
+      .chart-card {
+        position: relative;
+        height: 24rem;
+      }
+
+      #headline {
+        display: inline-block;
+        margin-block-end: 2.5rem;
+        padding: 1rem 1.5rem 1.5rem;
+      }
+
+      #headline .number {
+        display: block;
+        font-size: 4rem;
+        font-weight: 900;
+        color: var(--accent);
+        line-height: 1.1;
+      }
+
+      #headline .label {
+        display: block;
+        font-size: 2rem;
+        font-weight: 700;
+      }
+
+      #headline small {
+        color: var(--muted);
+        display: block;
+        margin-block-start: 1rem;
+      }
+
+      footer {
+        color: var(--muted);
+        font-size: 0.8rem;
+      }
+
+      footer p {
+        margin: 0;
+      }
+
+      p {
+        line-height: 1.67em;
+        margin-block: 1em 2em;
+        text-wrap: balance;
+      }
+
+      a {
+        color: var(--accent);
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>Estimated Active Flathub Users</h1>
+      <p>Conservative automated estimate based on <a href="https://cassidyjames.com">Cassidy</a>’s manual approach used for <a href="https://docs.flathub.org/blog/over-one-million-active-users-and-growing">“Over One Million Active Users, and Growing”</a> and <a href="https://docs.flathub.org/blog/2-billion-downloads-2024">“2 Billion Downloads & Other Milestones from 2024 So Far”</a>. Derived from the number of updates to the <a href="https://freedesktop-sdk.gitlab.io/">FreeDesktop SDK platform</a> served by Flathub during the first 28 days of each patch release.</p>
+
+      <div class="card" id="headline">Loading&hellip;</div>
+
+      <section>
+        <h2>Active users over time</h2>
+        <p>Each point is a count of the FreeDesktop SDK platform updates to that branch’s patch release delivered by Flathub in its first 28 days; patch release lifecycles less than 28 days are omitted. Since multiple branches of the FreeDesktop SDK are actively used by different apps at the same time, summing them would potentially over-count users; instead, estimated active users is based on the highest peak of updates from the past six months.</p>
+        <div class="card chart-card"><canvas id="chart"></canvas></div>
+      </section>
+
+      <footer>
+        <p>Raw data: <a href="api/active-users.json">active-users.json</a> &middot; <a href="api/active-users-trend.json">active-users-trend.json</a></p>
+        <p>Source: <a href="https://github.com/cassidyjames/flathub-active-users">github.com/cassidyjames/flathub-active-users</a></p>
+      </footer>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
+    <script>
+      const GL = "org.freedesktop.Platform.GL.default";
+      const PLATFORM = "org.freedesktop.Platform";
+
+      const full = new Intl.NumberFormat();
+      const compact = new Intl.NumberFormat(undefined, { notation: "compact" });
+      const day = new Intl.DateTimeFormat(undefined, { year: "numeric", month: "short", day: "numeric" });
+      const month = new Intl.DateTimeFormat(undefined, { year: "numeric", month: "short" });
+
+      const css = (name) => getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+
+      const parseDay = (iso) => new Date(`${iso}T00:00:00`);
+
+      async function loadJSON(path) {
+        const res = await fetch(path);
+        if (!res.ok) throw new Error(`${res.status} ${res.statusText}`);
+        return res.json();
+      }
+
+      function describe(point) {
+        return [
+          `${point.ref}/${point.branch}`,
+          `28 days of ${point.release}`,
+        ];
+      }
+
+      async function renderHeadline() {
+        const el = document.getElementById("headline");
+        try {
+          const data = await loadJSON("api/active-users.json");
+          if (data.active_users == null) {
+            el.textContent = data.note ?? "No estimate available yet.";
+            return;
+          }
+          el.innerHTML = `
+            <span class="number">${full.format(data.active_users)}</span>
+            <span class="label">active users</span>
+            <small>Estimate as of ${day.format(parseDay(data.as_of))}</small>`;
+        } catch (err) {
+          el.textContent = `Couldn’t load the estimate: ${err.message}`;
+        }
+      }
+
+      function branchSeries(measurements) {
+        // One point per branch per date: whichever ref counted highest
+        const branches = new Map();
+        for (const m of measurements) {
+          if (!branches.has(m.branch)) branches.set(m.branch, new Map());
+          const points = branches.get(m.branch);
+          const seen = points.get(m.date);
+          if (!seen || m.active_users > seen.active_users) points.set(m.date, m);
+        }
+        return [...branches.entries()]
+          .sort(([a], [b]) => a.localeCompare(b))
+          .map(([branch, points]) => ({
+            branch,
+            points: [...points.values()]
+              .sort((a, b) => a.date.localeCompare(b.date))
+              .map((m) => ({ ...m, x: parseDay(m.date).getTime(), y: m.active_users })),
+          }));
+      }
+
+      function branchDataset(series, color) {
+        return {
+          type: "line",
+          label: series.branch,
+          data: series.points,
+          borderColor: color,
+          backgroundColor: color,
+          borderWidth: 2,
+          pointRadius: 4,
+          pointHoverRadius: 6,
+          tension: 0.2,
+          clip: 8,
+        };
+      }
+
+      const branchColor = (branch) => css(`--branch-${(parseInt(branch, 10) - 18) % 8}`);
+
+      let trendData = null;
+      let chart = null;
+
+      async function renderChart() {
+        trendData ??= await loadJSON("api/active-users-trend.json");
+        const data = trendData;
+        const datasets = [
+          ...branchSeries(data.measurements).map((s) => branchDataset(s, branchColor(s.branch))),
+          {
+            type: "line",
+            label: `Estimated users (past ${data.trailing_days} days)`,
+            data: data.trend.map((p) => ({ ...p, x: parseDay(p.date).getTime(), y: p.active_users })),
+            borderColor: css("--accent"),
+            backgroundColor: css("--accent"),
+            borderWidth: 3,
+            stepped: true,
+            pointRadius: 0,
+            pointHoverRadius: 0,
+          },
+        ];
+
+        // A linear axis rounds out to a tick boundary, which left the chart
+        // running months past the newest measurement. Pin it to the data.
+        const xs = datasets.flatMap((d) => d.data.map((p) => p.x));
+        const xMin = Math.min(...xs);
+        const xMax = Math.max(...xs);
+
+        chart?.destroy();
+        Chart.defaults.color = css("--muted");
+        Chart.defaults.borderColor = css("--border");
+        chart = new Chart(document.getElementById("chart"), {
+          data: { datasets },
+          options: {
+            responsive: true,
+            // The container sets the height; without this Chart.js derives its
+            // own size from the canvas it last resized and only ever ratchets down.
+            maintainAspectRatio: false,
+            interaction: { mode: "nearest" },
+            plugins: {
+              legend: { labels: { boxWidth: 12, boxHeight: 2, usePointStyle: false } },
+              tooltip: {
+                callbacks: {
+                  title: (items) => day.format(parseDay(items[0].raw.date)),
+                  label: (ctx) => `${full.format(ctx.parsed.y)} updates`,
+                  afterLabel: (ctx) => describe(ctx.raw),
+                },
+              },
+            },
+            scales: {
+              x: {
+                type: "linear",
+                min: xMin,
+                max: xMax,
+                ticks: { callback: (value) => month.format(new Date(value)), maxRotation: 0, autoSkipPadding: 24 },
+                grid: { display: false },
+              },
+              y: { beginAtZero: true, ticks: { callback: (value) => compact.format(value) } },
+            },
+          },
+        });
+      }
+
+      // Colours are read from CSS custom properties when the chart is built, so
+      // they don't follow a theme switch on their own -- rebuild on the change.
+      matchMedia("(prefers-color-scheme: dark)").addEventListener("change", renderChart);
+
+      renderHeadline();
+      renderChart();
+    </script>
+  </body>
+</html>
