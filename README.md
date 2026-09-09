@@ -36,7 +36,6 @@ Nothing special needed besides Python and its standard library.
 python3 scripts/fetch_daily_stats.py    # incremental; safe to re-run
 python3 scripts/fetch_releases.py
 python3 scripts/compute_active_users.py
-python3 -m unittest discover -s tests
 ```
 
 ## API
