@@ -35,6 +35,26 @@ ARRIVAL_SEARCH_DAYS = 5
 ARRIVAL_SPIKE_RATIO = 2
 ARRIVAL_MIN_BASELINE = 500
 
+# The headline is a floor, so it's rounded *down* to this many significant figures
+DISPLAY_SIG_FIGS = 3
+
+SCALES = ((1_000_000_000, "billion"), (1_000_000, "million"), (1_000, "thousand"))
+
+def round_down(value: int, sig_figs: int = DISPLAY_SIG_FIGS) -> int:
+    """Round down to `sig_figs` significant figures, keeping the estimate a floor"""
+    if value <= 0:
+        return value
+    step = 10 ** max(len(str(value)) - sig_figs, 0)
+    return value // step * step
+
+def format_estimate(value: int, sig_figs: int = DISPLAY_SIG_FIGS) -> str:
+    """Spell out a rounded-down estimate, e.g. 3790063 becomes 3.79+ million"""
+    rounded = round_down(value, sig_figs)
+    for scale, name in SCALES:
+        if rounded >= scale:
+            return f"{rounded / scale:.{sig_figs}g}+ {name}"
+    return f"{rounded:,}+"
+
 def load_daily_stats(path: pathlib.Path) -> dict[str, dict]:
     records: dict[str, dict] = {}
     with path.open() as f:
@@ -193,11 +213,15 @@ def main() -> int:
     active_users = {
         "generated_at": generated_at,
         "active_users": None,
+        "active_users_rounded": None,
+        "active_users_display": None,
         "note": "No release has been superseded yet, so there's nothing to measure.",
     }
     if headline:
         active_users |= {
             "active_users": headline["active_users"],
+            "active_users_rounded": round_down(headline["active_users"]),
+            "active_users_display": format_estimate(headline["active_users"]),
             "as_of": headline["date"],
             "kind": headline["kind"],
             "ref": headline["ref"],
