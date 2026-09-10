@@ -92,7 +92,7 @@
 
       .chart-card {
         position: relative;
-        height: 24rem;
+        height: 28rem;
       }
 
       #headline {
@@ -136,6 +136,11 @@
         text-wrap: balance;
       }
 
+      p small {
+        line-height: 1.5em;
+        display: inline-block;
+      }
+
       a {
         color: var(--accent);
       }
@@ -148,13 +153,17 @@
 
       <div class="card" id="headline">Loading&hellip;</div>
 
-      <section>
-        <h2>Active users over time</h2>
-        <p>Each point is a count of the FreeDesktop SDK platform updates to that branch’s patch release delivered by Flathub for as long as that release was the newest one available—so a release that stayed current for two months counts every installation that updated in those two months. Since multiple branches of the FreeDesktop SDK are actively used by different apps at the same time, summing them would potentially over-count users; instead, estimated active users is based on the highest peak of updates from the past six months.</p>
-        <p>Because release cadence varies, the window behind each point does too; hover a point to see how long its release was current. A longer window catches installations that update infrequently, so points aren’t directly comparable to each other.</p>
-        <p>The first release of a branch is the exception: there’s nothing to update from yet, so those points—drawn as triangles—count downloads instead, which at that moment are almost entirely fresh installs of machines moving onto the new branch. They tend to sit well below the estimate, since a branch’s first release is usually superseded within a week.</p>
-        <div class="card chart-card"><canvas id="chart"></canvas></div>
-      </section>
+      <p><strong>Flathub does not collect user or device metrics.</strong> However, it does log the <em>number</em> of downloads it serves of each app, runtime (shared base for several apps), and extension (e.g. graphics drivers). Downloads are also flagged as an update if the device already had an older version. Lastly, Mesa graphics extensions are released as part of the FreeDesktop SDK platform and used by all apps for the majority of users.</p>
+
+      <h2>Active users over time</h2>
+
+      <p>Given this data, we can estimate a <a href="#asterisk"><em>floor*</em></a> for the number of active users: the largest number of <em>updates</em> delivered to a recent FreeDesktop SDK platform runtime or Mesa extension. To help account for the natural volatility of the data, we measure the highest count from the past ~six months (180 days). Explore the data used to calculate the estimate in the interactive chart below.</p>
+
+      <div class="card chart-card"><canvas id="chart"></canvas></div>
+
+      <p>This method is imperfect and likely systematically under-estimates users: multiple branches of the FreeDesktop SDK platform may be in use by any given device at a time, so they can’t be summed; the length of a release’s lifecycle directly impacts how many active devices download it (instead of the next patch release); and desktop platform adoption and release cycles introduce countless additional variables that affect runtime adoption. However, it’s the best and most transparent proxy we’ve come up with thus far.</p>
+
+      <p><small id="asterisk">*<strong>A dip in the estimate does not necessarily equate to fewer active users</strong>; it simply represents the lowest estimate we’re comfortable making, and may be affected by several external factors.</small></p>
 
       <footer>
         <p>Raw data: <a href="api/active-users.json">active-users.json</a> &middot; <a href="api/active-users-trend.json">active-users-trend.json</a></p>
@@ -164,8 +173,11 @@
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.4/dist/chart.umd.min.js"></script>
     <script>
-      const GL = "org.freedesktop.Platform.GL.default";
-      const PLATFORM = "org.freedesktop.Platform";
+      const RUNTIME = "org.freedesktop.Platform";
+      const MESA = "org.freedesktop.Platform.GL.default";
+
+      // What we call the two refs everywhere the reader can see them
+      const refName = (ref) => (ref === MESA ? "Mesa" : "Runtime");
 
       const full = new Intl.NumberFormat();
       const compact = new Intl.NumberFormat(undefined, { notation: "compact" });
@@ -184,10 +196,8 @@
 
       function describe(point) {
         const lines = [
-          `${point.ref}/${point.branch}`,
-          `${point.release}, current for ${point.window_days} days`,
+          `${refName(point.ref)} ${point.release} (${point.window_days} days)`
         ];
-        if (point.kind === "downloads") lines.push("First release of the branch: fresh installs");
         return lines;
       }
 
@@ -208,36 +218,42 @@
         }
       }
 
-      function branchSeries(measurements) {
-        // One point per branch per date: whichever ref counted highest
-        const branches = new Map();
+      function refSeries(measurements) {
+        const groups = new Map();
         for (const m of measurements) {
-          if (!branches.has(m.branch)) branches.set(m.branch, new Map());
-          const points = branches.get(m.branch);
-          const seen = points.get(m.date);
-          if (!seen || m.active_users > seen.active_users) points.set(m.date, m);
+          const key = `${m.branch}\u0000${m.ref}`;
+          if (!groups.has(key)) groups.set(key, []);
+          groups.get(key).push(m);
         }
-        return [...branches.entries()]
-          .sort(([a], [b]) => a.localeCompare(b))
-          .map(([branch, points]) => ({
-            branch,
-            points: [...points.values()]
+        return [...groups.values()]
+          .map((points) => ({
+            branch: points[0].branch,
+            ref: points[0].ref,
+            points: points
               .sort((a, b) => a.date.localeCompare(b.date))
               .map((m) => ({ ...m, x: parseDay(m.date).getTime(), y: m.active_users })),
-          }));
+          }))
+          // Mesa before Runtime within a branch, matching the legend order
+          .sort((a, b) => a.branch.localeCompare(b.branch) || (a.ref === MESA ? -1 : 1));
       }
 
-      function branchDataset(series, color) {
+      function refDataset(series, color) {
+        // circle = fresh installs; triangle = updates
+        // hollow = runtime; solid = mesa
+        const fill = series.ref === MESA ? color : "transparent";
         return {
           type: "line",
-          label: series.branch,
+          label: `${series.branch} ${refName(series.ref)}`,
           data: series.points,
           borderColor: color,
-          backgroundColor: color,
+          backgroundColor: fill,
           borderWidth: 2,
-          pointRadius: 4,
-          pointHoverRadius: 6,
-          pointStyle: series.points.map((p) => (p.kind === "downloads" ? "triangle" : "circle")),
+          pointStyle: series.points.map((p) => (p.kind === "downloads" ? "circle" : "triangle")),
+          pointBackgroundColor: fill,
+          pointBorderColor: color,
+          pointBorderWidth: 1.5,
+          pointRadius: series.points.map((p) => (p.kind === "downloads" ? 4 : 5)),
+          pointHoverRadius: series.points.map((p) => (p.kind === "downloads" ? 6 : 7)),
           showLine: false,
           tension: 0.2,
           clip: 8,
@@ -253,7 +269,7 @@
         trendData ??= await loadJSON("api/active-users-trend.json");
         const data = trendData;
         const datasets = [
-          ...branchSeries(data.measurements).map((s) => branchDataset(s, branchColor(s.branch))),
+          ...refSeries(data.measurements).map((s) => refDataset(s, branchColor(s.branch))),
           {
             type: "line",
             label: `Estimated users (past ${data.trailing_days} days)`,
@@ -261,6 +277,7 @@
             borderColor: css("--accent"),
             backgroundColor: css("--accent"),
             borderWidth: 3,
+            pointStyle: "line",
             stepped: true,
             pointRadius: 0,
             pointHoverRadius: 0,
@@ -283,10 +300,21 @@
             // The container sets the height; without this Chart.js derives its
             // own size from the canvas it last resized and only ever ratchets down.
             maintainAspectRatio: false,
-            interaction: { mode: "nearest" },
+            interaction: {
+              axis: "xy",
+              intersect: false,
+              mode: "nearest"
+            },
             plugins: {
-              legend: { labels: { boxWidth: 12, boxHeight: 2, usePointStyle: false } },
+              legend: {
+                labels: {
+                  boxWidth: 10,
+                  boxHeight: 10,
+                  usePointStyle: true
+                }
+              },
               tooltip: {
+                usePointStyle: true,
                 callbacks: {
                   title: (items) => day.format(parseDay(items[0].raw.date)),
                   label: (ctx) => `${full.format(ctx.parsed.y)} ${ctx.raw.kind}`,
@@ -299,17 +327,26 @@
                 type: "linear",
                 min: xMin,
                 max: xMax,
-                ticks: { callback: (value) => month.format(new Date(value)), maxRotation: 0, autoSkipPadding: 24 },
+                ticks: {
+                  callback: (value) => month.format(new Date(value)),
+                  maxRotation: 0,
+                  autoSkipPadding: 24
+                },
                 grid: { display: false },
               },
-              y: { beginAtZero: true, ticks: { callback: (value) => compact.format(value) } },
+              y: {
+                beginAtZero: true,
+                ticks: {
+                  callback: (value) => compact.format(value)
+                },
+              },
             },
           },
         });
       }
 
-      // Colours are read from CSS custom properties when the chart is built, so
-      // they don't follow a theme switch on their own -- rebuild on the change.
+      // Colors are read from CSS custom properties when the chart is built, so
+      // they don't follow a theme switch on their own; rebuild on the change.
       matchMedia("(prefers-color-scheme: dark)").addEventListener("change", renderChart);
 
       renderHeadline();

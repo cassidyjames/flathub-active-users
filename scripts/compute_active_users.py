@@ -23,11 +23,9 @@ REFS = ("org.freedesktop.Platform.GL.default", "org.freedesktop.Platform")
 # Flathub reports [downloads, updates] per arch, where updates are a subset
 DOWNLOADS, UPDATES = 0, 1
 
-# Each release is measured over its whole life, so a release that stayed current
-# for two months counts every installation that updated in those two months
 MIN_WINDOW_DAYS = 1
 
-# How far back a measurement still counts towards "the floor right now"
+# How far back a measurement still counts towards the current estimate
 TRAILING_DAYS = 180
 
 # A release typically arrives on Flathub some days after tagged; when it does,
@@ -69,7 +67,7 @@ def sum_counts(
     days: int,
     column: int = UPDATES,
 ) -> tuple[int, int]:
-    """Sum one column over `days` days from `start`. Returns (total, days_with_data)."""
+    """Sum one column over `days` days from `start`. Returns (total, days_with_data)"""
     total = 0
     days_with_data = 0
     for offset in range(days):
@@ -125,12 +123,12 @@ def build_measurements(
     """One measurement per (ref, branch, release), spanning the whole time that
     release was the newest one available for its branch.
 
-    Patch releases are measured by updates. A branch's first release has nothing
-    to update from, so it's measured by downloads instead: at that point they're
-    almost entirely fresh installs of machines moving onto the new branch.
+    A branch's first release is measured by downloads. Patch releases are
+    measured by updates.
 
-    A release is skipped when the daily stats are missing a day inside the
-    window, which would cause it to be undercounted.
+    A release is skipped if there are no daily stats, or if there are zero
+    downloads/updates. `days_with_data` helps identify when a release is missing
+    days from its daily stats.
     """
     measurements = []
     for branch, points in releases.items():
@@ -145,7 +143,7 @@ def build_measurements(
             column = DOWNLOADS if initial else UPDATES
             for ref in refs:
                 total, days_with_data = sum_counts(daily_stats, ref, branch, start, window, column)
-                if days_with_data < window:
+                if days_with_data == 0 or total == 0:
                     continue
                 measurements.append(
                     {
@@ -159,6 +157,7 @@ def build_measurements(
                         "window_start": start.isoformat(),
                         "window_end": end.isoformat(),
                         "window_days": window,
+                        "days_with_data": days_with_data,
                     }
                 )
     measurements.sort(key=lambda m: (m["date"], m["ref"], m["branch"]))
@@ -208,6 +207,7 @@ def main() -> int:
                 "start": headline["window_start"],
                 "end": headline["window_end"],
                 "days": headline["window_days"],
+                "days_with_data": headline["days_with_data"],
             },
             "note": None,
         }
