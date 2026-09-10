@@ -4,7 +4,7 @@ An attempt at automatically estimating the number of active users of Flathub, ba
 
 The goal is to demonstrate the adoption of Flathub and Flatpak by Linux users, encouraging app developers to distribute their apps on Flathub. My hope is that having this in the open enables people to validate the claims and poke any holes in the method so it can be improved.
 
-Check out the current estimate and a basic explanation of the methodology on the [live website](http://cassidyjames.com/flathub-active-users/).
+Check out the current estimate and a basic explanation of the methodology on the [live website](https://cassidyjames.com/flathub-active-users/).
 
 ## Notes
 

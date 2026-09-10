@@ -1,9 +1,11 @@
 {
   "active_users": 3790063,
+  "active_users_display": "3.79+ million",
+  "active_users_rounded": 3790000,
   "as_of": "2026-08-23",
   "based_on_release": "25.08.12",
   "branch": "25.08",
-  "generated_at": "2026-09-10T22:52:47.226943+00:00",
+  "generated_at": "2026-09-10T22:59:30.228771+00:00",
   "kind": "updates",
   "note": null,
   "ref": "org.freedesktop.Platform.GL.default",

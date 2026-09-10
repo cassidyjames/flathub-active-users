@@ -210,7 +210,7 @@
             return;
           }
           el.innerHTML = `
-            <span class="number">${full.format(data.active_users)}</span>
+            <span class="number">${data.active_users_display}</span>
             <span class="label">active users</span>
             <small>${data.kind === "downloads" ? "Downloads of" : "Updates to"} ${data.based_on_release} as of ${day.format(parseDay(data.as_of))}</small>`;
         } catch (err) {
