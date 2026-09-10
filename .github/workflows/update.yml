@@ -3,8 +3,8 @@ name: Update active-users stats
 on:
   schedule:
     # Once a day is plenty: hub.flathub.org publishes a day's file shortly
-    # after it ends, and the number itself only moves when a release that
-    # stayed current for 28 days finishes its window.
+    # after it ends, and the number itself only moves when a new release
+    # supersedes the current one and closes its window.
     - cron: "17 6 * * *"
   push:
     branches: [main]

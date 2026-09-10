@@ -20,10 +20,12 @@ PUBLIC_API_DIR = pathlib.Path(__file__).resolve().parent.parent / "public" / "ap
 
 REFS = ("org.freedesktop.Platform.GL.default", "org.freedesktop.Platform")
 
-# A month, so the result reads as a monthly active device count
-WINDOW_DAYS = 28
+# Flathub reports [downloads, updates] per arch, where updates are a subset
+DOWNLOADS, UPDATES = 0, 1
 
-# How far back a measurement still counts towards "the floor right now"
+MIN_WINDOW_DAYS = 1
+
+# How far back a measurement still counts towards the current estimate
 TRAILING_DAYS = 180
 
 # A release typically arrives on Flathub some days after tagged; when it does,
@@ -47,25 +49,32 @@ def load_daily_stats(path: pathlib.Path) -> dict[str, dict]:
 def load_releases(path: pathlib.Path) -> dict[str, list[dict]]:
     return json.loads(path.read_text())["branches"]
 
-def daily_updates(daily_stats: dict[str, dict], ref: str, branch: str, date: datetime.date) -> int | None:
-    """Updates served for one ref on one day, or None if that day is missing"""
+def daily_count(
+    daily_stats: dict[str, dict], ref: str, branch: str, date: datetime.date, column: int = UPDATES
+) -> int | None:
+    """Downloads or updates served for one ref on one day, or None if that day is missing"""
     record = daily_stats.get(date.isoformat())
     if record is None:
         return None
     arch_counts = record["refs"].get(f"{ref}/{branch}", {})
-    return sum(counts[1] for counts in arch_counts.values())
+    return sum(counts[column] for counts in arch_counts.values())
 
-def sum_updates(
-    daily_stats: dict[str, dict], ref: str, branch: str, start: datetime.date, days: int
+def sum_counts(
+    daily_stats: dict[str, dict],
+    ref: str,
+    branch: str,
+    start: datetime.date,
+    days: int,
+    column: int = UPDATES,
 ) -> tuple[int, int]:
-    """Sum updates over `days` days from `start`. Returns (updates, days_with_data)."""
+    """Sum one column over `days` days from `start`. Returns (total, days_with_data)"""
     total = 0
     days_with_data = 0
     for offset in range(days):
-        updates = daily_updates(daily_stats, ref, branch, start + datetime.timedelta(days=offset))
-        if updates is not None:
+        count = daily_count(daily_stats, ref, branch, start + datetime.timedelta(days=offset), column)
+        if count is not None:
             days_with_data += 1
-            total += updates
+            total += count
     return total, days_with_data
 
 def baseline_updates(
@@ -74,7 +83,7 @@ def baseline_updates(
     """Median daily updates for a ref over the week before `before`, if that week has data"""
     days = []
     for offset in range(1, ARRIVAL_BASELINE_DAYS + 1):
-        updates = daily_updates(daily_stats, ref, branch, before - datetime.timedelta(days=offset))
+        updates = daily_count(daily_stats, ref, branch, before - datetime.timedelta(days=offset))
         if updates is not None:
             days.append(updates)
     if len(days) < ARRIVAL_BASELINE_DAYS // 2:
@@ -100,7 +109,7 @@ def find_arrival(
     threshold = baselines[ref] * ARRIVAL_SPIKE_RATIO
     for offset in range(ARRIVAL_SEARCH_DAYS + 1):
         day = tag_date + datetime.timedelta(days=offset)
-        updates = daily_updates(daily_stats, ref, branch, day)
+        updates = daily_count(daily_stats, ref, branch, day)
         if updates is not None and updates >= threshold:
             return day
     return tag_date
@@ -109,40 +118,46 @@ def build_measurements(
     daily_stats: dict[str, dict],
     releases: dict[str, list[dict]],
     refs: tuple[str, ...] = REFS,
-    window: int = WINDOW_DAYS,
+    min_days: int = MIN_WINDOW_DAYS,
 ) -> list[dict]:
-    """One measurement per (ref, branch, release) that was the latest for a full
-    window.
+    """One measurement per (ref, branch, release), spanning the whole time that
+    release was the newest one available for its branch.
 
-    A release is skipped if: another lands earlier than the window close since
-    the window would span two releases, when it's a branch's first release since
-    there's nothing to update from, or when the daily stats are missing a day
-    inside the window which would cause it to be undercounted.
+    A branch's first release is measured by downloads. Patch releases are
+    measured by updates.
+
+    A release is skipped if there are no daily stats, or if there are zero
+    downloads/updates. `days_with_data` helps identify when a release is missing
+    days from its daily stats.
     """
     measurements = []
     for branch, points in releases.items():
         arrivals = [find_arrival(daily_stats, branch, datetime.date.fromisoformat(p["date"]), refs) for p in points]
         # zip stops at the last release, which has no successor to bound it
         for current, start, next_start in zip(points, arrivals, arrivals[1:]):
-            if current["point"] == 0:
-                continue
-            if (next_start - start).days < window:
+            initial = current["point"] == 0
+            window = (next_start - start).days
+            if window < min_days:
                 continue
             end = start + datetime.timedelta(days=window)
+            column = DOWNLOADS if initial else UPDATES
             for ref in refs:
-                updates, days_with_data = sum_updates(daily_stats, ref, branch, start, window)
-                if days_with_data < window:
+                total, days_with_data = sum_counts(daily_stats, ref, branch, start, window, column)
+                if days_with_data == 0 or total == 0:
                     continue
                 measurements.append(
                     {
                         "date": end.isoformat(),
-                        "active_users": updates,
+                        "active_users": total,
+                        "kind": "downloads" if initial else "updates",
                         "ref": ref,
                         "branch": branch,
                         "release": current["version"],
                         "tag_date": current["date"],
                         "window_start": start.isoformat(),
                         "window_end": end.isoformat(),
+                        "window_days": window,
+                        "days_with_data": days_with_data,
                     }
                 )
     measurements.sort(key=lambda m: (m["date"], m["ref"], m["branch"]))
@@ -177,18 +192,23 @@ def main() -> int:
 
     active_users = {
         "generated_at": generated_at,
-        "window_days": WINDOW_DAYS,
         "active_users": None,
-        "note": "No release has stayed current long enough to measure yet.",
+        "note": "No release has been superseded yet, so there's nothing to measure.",
     }
     if headline:
         active_users |= {
             "active_users": headline["active_users"],
             "as_of": headline["date"],
+            "kind": headline["kind"],
             "ref": headline["ref"],
             "branch": headline["branch"],
             "based_on_release": headline["release"],
-            "window": {"start": headline["window_start"], "end": headline["window_end"]},
+            "window": {
+                "start": headline["window_start"],
+                "end": headline["window_end"],
+                "days": headline["window_days"],
+                "days_with_data": headline["days_with_data"],
+            },
             "note": None,
         }
 
@@ -198,7 +218,6 @@ def main() -> int:
         json.dumps(
             {
                 "generated_at": generated_at,
-                "window_days": WINDOW_DAYS,
                 "trailing_days": TRAILING_DAYS,
                 "refs": list(REFS),
                 "trend": trend,
@@ -213,7 +232,7 @@ def main() -> int:
         print(
             f"at least {headline['active_users']:,} active devices as of {headline['date']} "
             f"[{headline['ref']}/{headline['branch']}, release {headline['release']}, "
-            f"{headline['window_start']} + {WINDOW_DAYS}d]"
+            f"{headline['window_start']} + {headline['window_days']}d, {headline['kind']}]"
         )
     else:
         print("no measurable release windows yet")
