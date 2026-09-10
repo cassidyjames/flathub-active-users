@@ -1,14 +1,27 @@
 {
-  "generated_at": "2026-09-10T15:53:56.647834+00:00",
-  "trailing_days": 365,
+  "generated_at": "2026-09-10T16:23:22.797513+00:00",
+  "trailing_days": 180,
   "refs": [
     "org.freedesktop.Platform.GL.default",
     "org.freedesktop.Platform"
   ],
   "trend": [
     {
+      "date": "2018-08-14",
+      "active_users": 81,
+      "kind": "downloads",
+      "ref": "org.freedesktop.Platform",
+      "branch": "18.08",
+      "release": "18.08.0",
+      "tag_date": "2018-08-09",
+      "window_start": "2018-08-09",
+      "window_end": "2018-08-14",
+      "window_days": 5
+    },
+    {
       "date": "2018-08-16",
       "active_users": 695,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.1",
@@ -20,6 +33,7 @@
     {
       "date": "2018-08-22",
       "active_users": 3666,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.2",
@@ -31,6 +45,7 @@
     {
       "date": "2018-08-27",
       "active_users": 23360,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.5",
@@ -42,6 +57,7 @@
     {
       "date": "2018-08-30",
       "active_users": 23360,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.5",
@@ -53,6 +69,7 @@
     {
       "date": "2018-09-05",
       "active_users": 23360,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.5",
@@ -64,6 +81,7 @@
     {
       "date": "2018-09-13",
       "active_users": 23360,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.5",
@@ -75,6 +93,7 @@
     {
       "date": "2018-09-19",
       "active_users": 25443,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.9",
@@ -86,6 +105,7 @@
     {
       "date": "2018-09-25",
       "active_users": 25443,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.9",
@@ -97,6 +117,7 @@
     {
       "date": "2018-10-01",
       "active_users": 27974,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.12",
@@ -108,6 +129,7 @@
     {
       "date": "2018-10-14",
       "active_users": 32049,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.13",
@@ -119,6 +141,7 @@
     {
       "date": "2018-10-24",
       "active_users": 35221,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.14",
@@ -130,6 +153,7 @@
     {
       "date": "2018-10-30",
       "active_users": 35221,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.14",
@@ -141,6 +165,7 @@
     {
       "date": "2018-11-03",
       "active_users": 40259,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.17",
@@ -152,6 +177,7 @@
     {
       "date": "2018-11-15",
       "active_users": 41194,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.18",
@@ -163,6 +189,7 @@
     {
       "date": "2018-11-20",
       "active_users": 54620,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.19",
@@ -174,6 +201,7 @@
     {
       "date": "2018-12-22",
       "active_users": 56992,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.22",
@@ -185,6 +213,7 @@
     {
       "date": "2019-01-09",
       "active_users": 60680,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.23",
@@ -196,6 +225,7 @@
     {
       "date": "2019-01-10",
       "active_users": 60680,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.23",
@@ -207,6 +237,7 @@
     {
       "date": "2019-01-17",
       "active_users": 90549,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.25",
@@ -218,6 +249,7 @@
     {
       "date": "2019-02-06",
       "active_users": 90549,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.25",
@@ -229,6 +261,7 @@
     {
       "date": "2019-03-01",
       "active_users": 160066,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.27",
@@ -240,6 +273,7 @@
     {
       "date": "2019-03-28",
       "active_users": 181410,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.28",
@@ -251,6 +285,7 @@
     {
       "date": "2019-05-04",
       "active_users": 329175,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.29",
@@ -262,6 +297,7 @@
     {
       "date": "2019-05-24",
       "active_users": 329175,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.29",
@@ -273,6 +309,7 @@
     {
       "date": "2019-06-03",
       "active_users": 329175,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.29",
@@ -284,6 +321,7 @@
     {
       "date": "2019-07-06",
       "active_users": 329175,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.29",
@@ -295,6 +333,7 @@
     {
       "date": "2019-07-14",
       "active_users": 329175,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.29",
@@ -306,6 +345,7 @@
     {
       "date": "2019-09-01",
       "active_users": 329175,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.29",
@@ -317,6 +357,19 @@
     {
       "date": "2019-09-05",
       "active_users": 329175,
+      "kind": "updates",
+      "ref": "org.freedesktop.Platform",
+      "branch": "18.08",
+      "release": "18.08.29",
+      "tag_date": "2019-03-28",
+      "window_start": "2019-03-28",
+      "window_end": "2019-05-04",
+      "window_days": 37
+    },
+    {
+      "date": "2019-09-16",
+      "active_users": 329175,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.29",
@@ -328,6 +381,7 @@
     {
       "date": "2019-09-27",
       "active_users": 329175,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.29",
@@ -339,6 +393,7 @@
     {
       "date": "2019-10-06",
       "active_users": 329175,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.29",
@@ -350,6 +405,7 @@
     {
       "date": "2019-10-08",
       "active_users": 329175,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.29",
@@ -361,6 +417,7 @@
     {
       "date": "2019-11-20",
       "active_users": 559012,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.37",
@@ -372,6 +429,7 @@
     {
       "date": "2019-11-22",
       "active_users": 559012,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.37",
@@ -383,6 +441,7 @@
     {
       "date": "2019-12-09",
       "active_users": 559012,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.37",
@@ -394,6 +453,7 @@
     {
       "date": "2019-12-29",
       "active_users": 757069,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.38",
@@ -405,6 +465,7 @@
     {
       "date": "2020-01-14",
       "active_users": 757069,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.38",
@@ -416,6 +477,7 @@
     {
       "date": "2020-02-05",
       "active_users": 757069,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.38",
@@ -427,6 +489,7 @@
     {
       "date": "2020-03-03",
       "active_users": 757069,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.38",
@@ -438,6 +501,7 @@
     {
       "date": "2020-03-19",
       "active_users": 757069,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.38",
@@ -449,6 +513,7 @@
     {
       "date": "2020-05-03",
       "active_users": 757069,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.38",
@@ -460,6 +525,7 @@
     {
       "date": "2020-06-01",
       "active_users": 757069,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.38",
@@ -470,29 +536,8 @@
     },
     {
       "date": "2020-07-10",
-      "active_users": 757069,
-      "ref": "org.freedesktop.Platform",
-      "branch": "18.08",
-      "release": "18.08.38",
-      "tag_date": "2019-11-18",
-      "window_start": "2019-11-20",
-      "window_end": "2019-12-29",
-      "window_days": 39
-    },
-    {
-      "date": "2020-12-02",
-      "active_users": 757069,
-      "ref": "org.freedesktop.Platform",
-      "branch": "18.08",
-      "release": "18.08.38",
-      "tag_date": "2019-11-18",
-      "window_start": "2019-11-20",
-      "window_end": "2019-12-29",
-      "window_days": 39
-    },
-    {
-      "date": "2020-12-30",
       "active_users": 732932,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "19.08",
       "release": "19.08.9",
@@ -502,8 +547,45 @@
       "window_days": 45
     },
     {
+      "date": "2020-10-28",
+      "active_users": 847148,
+      "kind": "downloads",
+      "ref": "org.freedesktop.Platform.GL.default",
+      "branch": "20.08",
+      "release": "20.08.0",
+      "tag_date": "2020-08-31",
+      "window_start": "2020-08-31",
+      "window_end": "2020-10-28",
+      "window_days": 58
+    },
+    {
+      "date": "2020-12-02",
+      "active_users": 847148,
+      "kind": "downloads",
+      "ref": "org.freedesktop.Platform.GL.default",
+      "branch": "20.08",
+      "release": "20.08.0",
+      "tag_date": "2020-08-31",
+      "window_start": "2020-08-31",
+      "window_end": "2020-10-28",
+      "window_days": 58
+    },
+    {
+      "date": "2020-12-30",
+      "active_users": 847148,
+      "kind": "downloads",
+      "ref": "org.freedesktop.Platform.GL.default",
+      "branch": "20.08",
+      "release": "20.08.0",
+      "tag_date": "2020-08-31",
+      "window_start": "2020-08-31",
+      "window_end": "2020-10-28",
+      "window_days": 58
+    },
+    {
       "date": "2021-01-24",
       "active_users": 1074312,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "19.08",
       "release": "19.08.12",
@@ -515,6 +597,7 @@
     {
       "date": "2021-02-08",
       "active_users": 1074312,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "19.08",
       "release": "19.08.12",
@@ -526,6 +609,7 @@
     {
       "date": "2021-02-21",
       "active_users": 1074312,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "19.08",
       "release": "19.08.12",
@@ -537,6 +621,7 @@
     {
       "date": "2021-03-06",
       "active_users": 1074312,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "19.08",
       "release": "19.08.12",
@@ -548,6 +633,7 @@
     {
       "date": "2021-03-11",
       "active_users": 1074312,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "19.08",
       "release": "19.08.12",
@@ -559,6 +645,7 @@
     {
       "date": "2021-04-06",
       "active_users": 1074312,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "19.08",
       "release": "19.08.12",
@@ -570,6 +657,7 @@
     {
       "date": "2021-04-13",
       "active_users": 1074312,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "19.08",
       "release": "19.08.12",
@@ -581,6 +669,7 @@
     {
       "date": "2021-05-13",
       "active_users": 1074312,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "19.08",
       "release": "19.08.12",
@@ -592,6 +681,7 @@
     {
       "date": "2021-05-19",
       "active_users": 1074312,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "19.08",
       "release": "19.08.12",
@@ -603,6 +693,7 @@
     {
       "date": "2021-05-21",
       "active_users": 1074312,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "19.08",
       "release": "19.08.12",
@@ -614,6 +705,7 @@
     {
       "date": "2021-05-29",
       "active_users": 1074312,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "19.08",
       "release": "19.08.12",
@@ -625,6 +717,19 @@
     {
       "date": "2021-07-04",
       "active_users": 1199206,
+      "kind": "updates",
+      "ref": "org.freedesktop.Platform.GL.default",
+      "branch": "20.08",
+      "release": "20.08.13",
+      "tag_date": "2021-05-29",
+      "window_start": "2021-05-29",
+      "window_end": "2021-07-04",
+      "window_days": 36
+    },
+    {
+      "date": "2021-09-05",
+      "active_users": 1199206,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
       "release": "20.08.13",
@@ -636,6 +741,7 @@
     {
       "date": "2021-09-09",
       "active_users": 1199206,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
       "release": "20.08.13",
@@ -647,6 +753,7 @@
     {
       "date": "2021-09-10",
       "active_users": 1199206,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
       "release": "20.08.13",
@@ -658,6 +765,7 @@
     {
       "date": "2021-09-17",
       "active_users": 1199206,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
       "release": "20.08.13",
@@ -669,6 +777,7 @@
     {
       "date": "2021-09-20",
       "active_users": 1199206,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
       "release": "20.08.13",
@@ -680,6 +789,7 @@
     {
       "date": "2021-09-27",
       "active_users": 1199206,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
       "release": "20.08.13",
@@ -691,6 +801,7 @@
     {
       "date": "2021-11-17",
       "active_users": 1199206,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
       "release": "20.08.13",
@@ -702,6 +813,7 @@
     {
       "date": "2021-11-22",
       "active_users": 1199206,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
       "release": "20.08.13",
@@ -713,6 +825,7 @@
     {
       "date": "2021-11-25",
       "active_users": 1199206,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
       "release": "20.08.13",
@@ -724,6 +837,7 @@
     {
       "date": "2021-12-14",
       "active_users": 1199206,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
       "release": "20.08.13",
@@ -734,106 +848,116 @@
     },
     {
       "date": "2022-01-02",
-      "active_users": 1199206,
+      "active_users": 1111764,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
-      "release": "20.08.13",
-      "tag_date": "2021-05-29",
-      "window_start": "2021-05-29",
-      "window_end": "2021-07-04",
-      "window_days": 36
+      "release": "20.08.14",
+      "tag_date": "2021-07-04",
+      "window_start": "2021-07-04",
+      "window_end": "2021-09-09",
+      "window_days": 67
     },
     {
       "date": "2022-01-08",
-      "active_users": 1199206,
+      "active_users": 1111764,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
-      "release": "20.08.13",
-      "tag_date": "2021-05-29",
-      "window_start": "2021-05-29",
-      "window_end": "2021-07-04",
-      "window_days": 36
+      "release": "20.08.14",
+      "tag_date": "2021-07-04",
+      "window_start": "2021-07-04",
+      "window_end": "2021-09-09",
+      "window_days": 67
     },
     {
       "date": "2022-01-10",
-      "active_users": 1199206,
+      "active_users": 1111764,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
-      "release": "20.08.13",
-      "tag_date": "2021-05-29",
-      "window_start": "2021-05-29",
-      "window_end": "2021-07-04",
-      "window_days": 36
+      "release": "20.08.14",
+      "tag_date": "2021-07-04",
+      "window_start": "2021-07-04",
+      "window_end": "2021-09-09",
+      "window_days": 67
     },
     {
       "date": "2022-02-03",
-      "active_users": 1199206,
+      "active_users": 1111764,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
-      "release": "20.08.13",
-      "tag_date": "2021-05-29",
-      "window_start": "2021-05-29",
-      "window_end": "2021-07-04",
-      "window_days": 36
+      "release": "20.08.14",
+      "tag_date": "2021-07-04",
+      "window_start": "2021-07-04",
+      "window_end": "2021-09-09",
+      "window_days": 67
     },
     {
       "date": "2022-02-04",
-      "active_users": 1199206,
+      "active_users": 1111764,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
-      "release": "20.08.13",
-      "tag_date": "2021-05-29",
-      "window_start": "2021-05-29",
-      "window_end": "2021-07-04",
-      "window_days": 36
+      "release": "20.08.14",
+      "tag_date": "2021-07-04",
+      "window_start": "2021-07-04",
+      "window_end": "2021-09-09",
+      "window_days": 67
     },
     {
       "date": "2022-03-02",
-      "active_users": 1199206,
+      "active_users": 1111764,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
-      "release": "20.08.13",
-      "tag_date": "2021-05-29",
-      "window_start": "2021-05-29",
-      "window_end": "2021-07-04",
-      "window_days": 36
+      "release": "20.08.14",
+      "tag_date": "2021-07-04",
+      "window_start": "2021-07-04",
+      "window_end": "2021-09-09",
+      "window_days": 67
     },
     {
       "date": "2022-03-25",
-      "active_users": 1199206,
+      "active_users": 1105008,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
-      "release": "20.08.13",
-      "tag_date": "2021-05-29",
-      "window_start": "2021-05-29",
-      "window_end": "2021-07-04",
-      "window_days": 36
+      "release": "20.08.15",
+      "tag_date": "2021-09-08",
+      "window_start": "2021-09-09",
+      "window_end": "2021-11-17",
+      "window_days": 69
     },
     {
       "date": "2022-04-11",
-      "active_users": 1199206,
+      "active_users": 1105008,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
-      "release": "20.08.13",
-      "tag_date": "2021-05-29",
-      "window_start": "2021-05-29",
-      "window_end": "2021-07-04",
-      "window_days": 36
+      "release": "20.08.15",
+      "tag_date": "2021-09-08",
+      "window_start": "2021-09-09",
+      "window_end": "2021-11-17",
+      "window_days": 69
     },
     {
       "date": "2022-05-03",
-      "active_users": 1199206,
+      "active_users": 1105008,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
-      "release": "20.08.13",
-      "tag_date": "2021-05-29",
-      "window_start": "2021-05-29",
-      "window_end": "2021-07-04",
-      "window_days": 36
+      "release": "20.08.15",
+      "tag_date": "2021-09-08",
+      "window_start": "2021-09-09",
+      "window_end": "2021-11-17",
+      "window_days": 69
     },
     {
       "date": "2022-06-01",
       "active_users": 1299746,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "21.08",
       "release": "21.08.13",
@@ -845,6 +969,7 @@
     {
       "date": "2022-08-04",
       "active_users": 1299746,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "21.08",
       "release": "21.08.13",
@@ -856,6 +981,19 @@
     {
       "date": "2022-08-22",
       "active_users": 1299746,
+      "kind": "updates",
+      "ref": "org.freedesktop.Platform.GL.default",
+      "branch": "21.08",
+      "release": "21.08.13",
+      "tag_date": "2022-05-02",
+      "window_start": "2022-05-03",
+      "window_end": "2022-06-01",
+      "window_days": 29
+    },
+    {
+      "date": "2022-09-05",
+      "active_users": 1299746,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "21.08",
       "release": "21.08.13",
@@ -867,6 +1005,7 @@
     {
       "date": "2022-09-23",
       "active_users": 1299746,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "21.08",
       "release": "21.08.13",
@@ -878,6 +1017,7 @@
     {
       "date": "2022-09-25",
       "active_users": 1299746,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "21.08",
       "release": "21.08.13",
@@ -889,6 +1029,7 @@
     {
       "date": "2022-10-13",
       "active_users": 1869205,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "21.08",
       "release": "21.08.15",
@@ -900,6 +1041,7 @@
     {
       "date": "2022-11-05",
       "active_users": 1869205,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "21.08",
       "release": "21.08.15",
@@ -911,6 +1053,7 @@
     {
       "date": "2022-12-06",
       "active_users": 1869205,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "21.08",
       "release": "21.08.15",
@@ -922,6 +1065,7 @@
     {
       "date": "2022-12-22",
       "active_users": 1891395,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "21.08",
       "release": "21.08.16",
@@ -933,6 +1077,7 @@
     {
       "date": "2023-01-11",
       "active_users": 2412887,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.4",
@@ -944,6 +1089,7 @@
     {
       "date": "2023-01-27",
       "active_users": 2412887,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.4",
@@ -955,6 +1101,7 @@
     {
       "date": "2023-01-31",
       "active_users": 2412887,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.4",
@@ -966,6 +1113,7 @@
     {
       "date": "2023-02-02",
       "active_users": 2412887,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.4",
@@ -977,6 +1125,7 @@
     {
       "date": "2023-02-28",
       "active_users": 2462491,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.7",
@@ -988,6 +1137,7 @@
     {
       "date": "2023-03-09",
       "active_users": 2462491,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.7",
@@ -999,6 +1149,7 @@
     {
       "date": "2023-04-17",
       "active_users": 4404916,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.9",
@@ -1010,6 +1161,7 @@
     {
       "date": "2023-04-20",
       "active_users": 4404916,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.9",
@@ -1021,6 +1173,7 @@
     {
       "date": "2023-06-02",
       "active_users": 4886761,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.11",
@@ -1032,6 +1185,7 @@
     {
       "date": "2023-06-25",
       "active_users": 4886761,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.11",
@@ -1043,6 +1197,7 @@
     {
       "date": "2023-07-30",
       "active_users": 4886761,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.11",
@@ -1054,6 +1209,7 @@
     {
       "date": "2023-08-03",
       "active_users": 4886761,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.11",
@@ -1065,6 +1221,7 @@
     {
       "date": "2023-08-29",
       "active_users": 4886761,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.11",
@@ -1076,6 +1233,19 @@
     {
       "date": "2023-09-03",
       "active_users": 4886761,
+      "kind": "updates",
+      "ref": "org.freedesktop.Platform.GL.default",
+      "branch": "22.08",
+      "release": "22.08.11",
+      "tag_date": "2023-04-20",
+      "window_start": "2023-04-20",
+      "window_end": "2023-06-02",
+      "window_days": 43
+    },
+    {
+      "date": "2023-09-21",
+      "active_users": 4886761,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.11",
@@ -1087,6 +1257,7 @@
     {
       "date": "2023-10-02",
       "active_users": 4886761,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.11",
@@ -1098,6 +1269,7 @@
     {
       "date": "2023-10-04",
       "active_users": 4886761,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.11",
@@ -1109,6 +1281,7 @@
     {
       "date": "2023-10-05",
       "active_users": 4886761,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.11",
@@ -1120,6 +1293,7 @@
     {
       "date": "2023-10-12",
       "active_users": 4886761,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.11",
@@ -1131,6 +1305,7 @@
     {
       "date": "2023-10-18",
       "active_users": 4886761,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.11",
@@ -1142,6 +1317,7 @@
     {
       "date": "2023-10-20",
       "active_users": 4886761,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.11",
@@ -1153,6 +1329,7 @@
     {
       "date": "2023-10-21",
       "active_users": 4886761,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.11",
@@ -1164,6 +1341,7 @@
     {
       "date": "2023-10-29",
       "active_users": 4886761,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.11",
@@ -1175,6 +1353,7 @@
     {
       "date": "2023-11-29",
       "active_users": 4886761,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.11",
@@ -1185,194 +1364,212 @@
     },
     {
       "date": "2023-12-05",
-      "active_users": 4886761,
+      "active_users": 3942371,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
-      "release": "22.08.11",
-      "tag_date": "2023-04-20",
-      "window_start": "2023-04-20",
-      "window_end": "2023-06-02",
-      "window_days": 43
+      "release": "22.08.14",
+      "tag_date": "2023-08-02",
+      "window_start": "2023-08-03",
+      "window_end": "2023-09-03",
+      "window_days": 31
     },
     {
       "date": "2023-12-15",
-      "active_users": 4886761,
+      "active_users": 3961612,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
-      "release": "22.08.11",
-      "tag_date": "2023-04-20",
-      "window_start": "2023-04-20",
-      "window_end": "2023-06-02",
-      "window_days": 43
+      "release": "22.08.19",
+      "tag_date": "2023-10-21",
+      "window_start": "2023-10-21",
+      "window_end": "2023-12-15",
+      "window_days": 55
     },
     {
       "date": "2023-12-24",
-      "active_users": 4886761,
+      "active_users": 3961612,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
-      "release": "22.08.11",
-      "tag_date": "2023-04-20",
-      "window_start": "2023-04-20",
-      "window_end": "2023-06-02",
-      "window_days": 43
+      "release": "22.08.19",
+      "tag_date": "2023-10-21",
+      "window_start": "2023-10-21",
+      "window_end": "2023-12-15",
+      "window_days": 55
     },
     {
       "date": "2024-01-05",
-      "active_users": 4886761,
+      "active_users": 3961612,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
-      "release": "22.08.11",
-      "tag_date": "2023-04-20",
-      "window_start": "2023-04-20",
-      "window_end": "2023-06-02",
-      "window_days": 43
+      "release": "22.08.19",
+      "tag_date": "2023-10-21",
+      "window_start": "2023-10-21",
+      "window_end": "2023-12-15",
+      "window_days": 55
     },
     {
       "date": "2024-02-05",
-      "active_users": 4886761,
+      "active_users": 3961612,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
-      "release": "22.08.11",
-      "tag_date": "2023-04-20",
-      "window_start": "2023-04-20",
-      "window_end": "2023-06-02",
-      "window_days": 43
+      "release": "22.08.19",
+      "tag_date": "2023-10-21",
+      "window_start": "2023-10-21",
+      "window_end": "2023-12-15",
+      "window_days": 55
     },
     {
       "date": "2024-02-14",
-      "active_users": 4886761,
+      "active_users": 3961612,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
-      "release": "22.08.11",
-      "tag_date": "2023-04-20",
-      "window_start": "2023-04-20",
-      "window_end": "2023-06-02",
-      "window_days": 43
+      "release": "22.08.19",
+      "tag_date": "2023-10-21",
+      "window_start": "2023-10-21",
+      "window_end": "2023-12-15",
+      "window_days": 55
     },
     {
       "date": "2024-02-29",
-      "active_users": 4886761,
+      "active_users": 3961612,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
-      "release": "22.08.11",
-      "tag_date": "2023-04-20",
-      "window_start": "2023-04-20",
-      "window_end": "2023-06-02",
-      "window_days": 43
+      "release": "22.08.19",
+      "tag_date": "2023-10-21",
+      "window_start": "2023-10-21",
+      "window_end": "2023-12-15",
+      "window_days": 55
     },
     {
       "date": "2024-03-06",
-      "active_users": 4886761,
+      "active_users": 3961612,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
-      "release": "22.08.11",
-      "tag_date": "2023-04-20",
-      "window_start": "2023-04-20",
-      "window_end": "2023-06-02",
-      "window_days": 43
+      "release": "22.08.19",
+      "tag_date": "2023-10-21",
+      "window_start": "2023-10-21",
+      "window_end": "2023-12-15",
+      "window_days": 55
     },
     {
       "date": "2024-03-18",
-      "active_users": 4886761,
+      "active_users": 3961612,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
-      "release": "22.08.11",
-      "tag_date": "2023-04-20",
-      "window_start": "2023-04-20",
-      "window_end": "2023-06-02",
-      "window_days": 43
+      "release": "22.08.19",
+      "tag_date": "2023-10-21",
+      "window_start": "2023-10-21",
+      "window_end": "2023-12-15",
+      "window_days": 55
     },
     {
       "date": "2024-03-20",
-      "active_users": 4886761,
+      "active_users": 3961612,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
-      "release": "22.08.11",
-      "tag_date": "2023-04-20",
-      "window_start": "2023-04-20",
-      "window_end": "2023-06-02",
-      "window_days": 43
+      "release": "22.08.19",
+      "tag_date": "2023-10-21",
+      "window_start": "2023-10-21",
+      "window_end": "2023-12-15",
+      "window_days": 55
     },
     {
       "date": "2024-03-22",
-      "active_users": 4886761,
+      "active_users": 3961612,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
-      "release": "22.08.11",
-      "tag_date": "2023-04-20",
-      "window_start": "2023-04-20",
-      "window_end": "2023-06-02",
-      "window_days": 43
+      "release": "22.08.19",
+      "tag_date": "2023-10-21",
+      "window_start": "2023-10-21",
+      "window_end": "2023-12-15",
+      "window_days": 55
     },
     {
       "date": "2024-04-05",
-      "active_users": 4886761,
+      "active_users": 3961612,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
-      "release": "22.08.11",
-      "tag_date": "2023-04-20",
-      "window_start": "2023-04-20",
-      "window_end": "2023-06-02",
-      "window_days": 43
+      "release": "22.08.19",
+      "tag_date": "2023-10-21",
+      "window_start": "2023-10-21",
+      "window_end": "2023-12-15",
+      "window_days": 55
     },
     {
       "date": "2024-04-10",
-      "active_users": 4886761,
+      "active_users": 3961612,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
-      "release": "22.08.11",
-      "tag_date": "2023-04-20",
-      "window_start": "2023-04-20",
-      "window_end": "2023-06-02",
-      "window_days": 43
+      "release": "22.08.19",
+      "tag_date": "2023-10-21",
+      "window_start": "2023-10-21",
+      "window_end": "2023-12-15",
+      "window_days": 55
     },
     {
       "date": "2024-04-13",
-      "active_users": 4886761,
+      "active_users": 3961612,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
-      "release": "22.08.11",
-      "tag_date": "2023-04-20",
-      "window_start": "2023-04-20",
-      "window_end": "2023-06-02",
-      "window_days": 43
+      "release": "22.08.19",
+      "tag_date": "2023-10-21",
+      "window_start": "2023-10-21",
+      "window_end": "2023-12-15",
+      "window_days": 55
     },
     {
       "date": "2024-04-28",
-      "active_users": 4886761,
+      "active_users": 3961612,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
-      "release": "22.08.11",
-      "tag_date": "2023-04-20",
-      "window_start": "2023-04-20",
-      "window_end": "2023-06-02",
-      "window_days": 43
+      "release": "22.08.19",
+      "tag_date": "2023-10-21",
+      "window_start": "2023-10-21",
+      "window_end": "2023-12-15",
+      "window_days": 55
     },
     {
       "date": "2024-05-24",
-      "active_users": 4886761,
+      "active_users": 4059686,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
-      "branch": "22.08",
-      "release": "22.08.11",
-      "tag_date": "2023-04-20",
-      "window_start": "2023-04-20",
-      "window_end": "2023-06-02",
-      "window_days": 43
+      "branch": "23.08",
+      "release": "23.08.17",
+      "tag_date": "2024-04-28",
+      "window_start": "2024-04-28",
+      "window_end": "2024-05-24",
+      "window_days": 26
     },
     {
       "date": "2024-05-25",
-      "active_users": 4886761,
+      "active_users": 4059686,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
-      "branch": "22.08",
-      "release": "22.08.11",
-      "tag_date": "2023-04-20",
-      "window_start": "2023-04-20",
-      "window_end": "2023-06-02",
-      "window_days": 43
+      "branch": "23.08",
+      "release": "23.08.17",
+      "tag_date": "2024-04-28",
+      "window_start": "2024-04-28",
+      "window_end": "2024-05-24",
+      "window_days": 26
     },
     {
       "date": "2024-06-10",
       "active_users": 4059686,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.17",
@@ -1384,6 +1581,7 @@
     {
       "date": "2024-06-14",
       "active_users": 4059686,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.17",
@@ -1395,6 +1593,7 @@
     {
       "date": "2024-07-15",
       "active_users": 4682310,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.20",
@@ -1406,6 +1605,19 @@
     {
       "date": "2024-09-10",
       "active_users": 5555289,
+      "kind": "updates",
+      "ref": "org.freedesktop.Platform.GL.default",
+      "branch": "23.08",
+      "release": "23.08.21",
+      "tag_date": "2024-07-15",
+      "window_start": "2024-07-15",
+      "window_end": "2024-09-10",
+      "window_days": 57
+    },
+    {
+      "date": "2024-09-13",
+      "active_users": 5555289,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.21",
@@ -1417,6 +1629,7 @@
     {
       "date": "2024-09-22",
       "active_users": 5555289,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.21",
@@ -1428,6 +1641,7 @@
     {
       "date": "2024-09-23",
       "active_users": 5555289,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.21",
@@ -1439,6 +1653,7 @@
     {
       "date": "2024-09-24",
       "active_users": 5555289,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.21",
@@ -1450,6 +1665,7 @@
     {
       "date": "2024-10-10",
       "active_users": 5555289,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.21",
@@ -1461,6 +1677,7 @@
     {
       "date": "2024-10-20",
       "active_users": 5555289,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.21",
@@ -1472,6 +1689,7 @@
     {
       "date": "2024-10-22",
       "active_users": 5555289,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.21",
@@ -1483,6 +1701,7 @@
     {
       "date": "2024-10-29",
       "active_users": 5555289,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.21",
@@ -1494,6 +1713,7 @@
     {
       "date": "2024-11-08",
       "active_users": 5555289,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.21",
@@ -1505,6 +1725,7 @@
     {
       "date": "2024-11-21",
       "active_users": 5555289,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.21",
@@ -1516,6 +1737,7 @@
     {
       "date": "2024-12-14",
       "active_users": 5555289,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.21",
@@ -1527,6 +1749,7 @@
     {
       "date": "2024-12-15",
       "active_users": 5555289,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.21",
@@ -1538,6 +1761,7 @@
     {
       "date": "2025-01-02",
       "active_users": 5555289,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.21",
@@ -1549,6 +1773,7 @@
     {
       "date": "2025-02-06",
       "active_users": 5555289,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.21",
@@ -1560,6 +1785,7 @@
     {
       "date": "2025-02-07",
       "active_users": 5555289,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.21",
@@ -1571,6 +1797,7 @@
     {
       "date": "2025-02-24",
       "active_users": 5555289,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.21",
@@ -1582,6 +1809,7 @@
     {
       "date": "2025-02-27",
       "active_users": 5555289,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.21",
@@ -1593,6 +1821,7 @@
     {
       "date": "2025-03-04",
       "active_users": 5555289,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.21",
@@ -1603,293 +1832,320 @@
     },
     {
       "date": "2025-03-14",
-      "active_users": 5555289,
+      "active_users": 4103103,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
-      "release": "23.08.21",
-      "tag_date": "2024-07-15",
-      "window_start": "2024-07-15",
-      "window_end": "2024-09-10",
-      "window_days": 57
+      "release": "23.08.23",
+      "tag_date": "2024-09-23",
+      "window_start": "2024-09-23",
+      "window_end": "2024-10-22",
+      "window_days": 29
     },
     {
       "date": "2025-03-16",
-      "active_users": 5555289,
+      "active_users": 4103103,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
-      "release": "23.08.21",
-      "tag_date": "2024-07-15",
-      "window_start": "2024-07-15",
-      "window_end": "2024-09-10",
-      "window_days": 57
+      "release": "23.08.23",
+      "tag_date": "2024-09-23",
+      "window_start": "2024-09-23",
+      "window_end": "2024-10-22",
+      "window_days": 29
     },
     {
       "date": "2025-03-24",
-      "active_users": 5555289,
+      "active_users": 4103103,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
-      "release": "23.08.21",
-      "tag_date": "2024-07-15",
-      "window_start": "2024-07-15",
-      "window_end": "2024-09-10",
-      "window_days": 57
+      "release": "23.08.23",
+      "tag_date": "2024-09-23",
+      "window_start": "2024-09-23",
+      "window_end": "2024-10-22",
+      "window_days": 29
     },
     {
       "date": "2025-04-07",
-      "active_users": 5555289,
+      "active_users": 4103103,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
-      "release": "23.08.21",
-      "tag_date": "2024-07-15",
-      "window_start": "2024-07-15",
-      "window_end": "2024-09-10",
-      "window_days": 57
+      "release": "23.08.23",
+      "tag_date": "2024-09-23",
+      "window_start": "2024-09-23",
+      "window_end": "2024-10-22",
+      "window_days": 29
     },
     {
       "date": "2025-04-10",
-      "active_users": 5555289,
+      "active_users": 4103103,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
-      "release": "23.08.21",
-      "tag_date": "2024-07-15",
-      "window_start": "2024-07-15",
-      "window_end": "2024-09-10",
-      "window_days": 57
+      "release": "23.08.23",
+      "tag_date": "2024-09-23",
+      "window_start": "2024-09-23",
+      "window_end": "2024-10-22",
+      "window_days": 29
     },
     {
       "date": "2025-04-23",
-      "active_users": 5555289,
+      "active_users": 3544086,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
-      "release": "23.08.21",
-      "tag_date": "2024-07-15",
-      "window_start": "2024-07-15",
-      "window_end": "2024-09-10",
-      "window_days": 57
+      "release": "23.08.27",
+      "tag_date": "2024-12-15",
+      "window_start": "2024-12-15",
+      "window_end": "2025-02-07",
+      "window_days": 54
     },
     {
       "date": "2025-05-07",
-      "active_users": 5555289,
+      "active_users": 3544086,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
-      "release": "23.08.21",
-      "tag_date": "2024-07-15",
-      "window_start": "2024-07-15",
-      "window_end": "2024-09-10",
-      "window_days": 57
+      "release": "23.08.27",
+      "tag_date": "2024-12-15",
+      "window_start": "2024-12-15",
+      "window_end": "2025-02-07",
+      "window_days": 54
     },
     {
       "date": "2025-05-12",
-      "active_users": 5555289,
+      "active_users": 3544086,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
-      "release": "23.08.21",
-      "tag_date": "2024-07-15",
-      "window_start": "2024-07-15",
-      "window_end": "2024-09-10",
-      "window_days": 57
+      "release": "23.08.27",
+      "tag_date": "2024-12-15",
+      "window_start": "2024-12-15",
+      "window_end": "2025-02-07",
+      "window_days": 54
     },
     {
       "date": "2025-06-06",
-      "active_users": 5555289,
+      "active_users": 3544086,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
-      "release": "23.08.21",
-      "tag_date": "2024-07-15",
-      "window_start": "2024-07-15",
-      "window_end": "2024-09-10",
-      "window_days": 57
+      "release": "23.08.27",
+      "tag_date": "2024-12-15",
+      "window_start": "2024-12-15",
+      "window_end": "2025-02-07",
+      "window_days": 54
     },
     {
       "date": "2025-06-11",
-      "active_users": 5555289,
+      "active_users": 3544086,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
-      "release": "23.08.21",
-      "tag_date": "2024-07-15",
-      "window_start": "2024-07-15",
-      "window_end": "2024-09-10",
-      "window_days": 57
+      "release": "23.08.27",
+      "tag_date": "2024-12-15",
+      "window_start": "2024-12-15",
+      "window_end": "2025-02-07",
+      "window_days": 54
     },
     {
       "date": "2025-06-14",
-      "active_users": 5555289,
+      "active_users": 3544086,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
-      "release": "23.08.21",
-      "tag_date": "2024-07-15",
-      "window_start": "2024-07-15",
-      "window_end": "2024-09-10",
-      "window_days": 57
+      "release": "23.08.27",
+      "tag_date": "2024-12-15",
+      "window_start": "2024-12-15",
+      "window_end": "2025-02-07",
+      "window_days": 54
     },
     {
       "date": "2025-07-04",
-      "active_users": 5555289,
+      "active_users": 3544086,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
-      "release": "23.08.21",
-      "tag_date": "2024-07-15",
-      "window_start": "2024-07-15",
-      "window_end": "2024-09-10",
-      "window_days": 57
+      "release": "23.08.27",
+      "tag_date": "2024-12-15",
+      "window_start": "2024-12-15",
+      "window_end": "2025-02-07",
+      "window_days": 54
     },
     {
       "date": "2025-08-11",
-      "active_users": 5555289,
+      "active_users": 3217211,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
-      "branch": "23.08",
-      "release": "23.08.21",
-      "tag_date": "2024-07-15",
-      "window_start": "2024-07-15",
-      "window_end": "2024-09-10",
-      "window_days": 57
+      "branch": "24.08",
+      "release": "24.08.22",
+      "tag_date": "2025-06-14",
+      "window_start": "2025-06-14",
+      "window_end": "2025-08-11",
+      "window_days": 58
     },
     {
       "date": "2025-08-28",
-      "active_users": 5555289,
+      "active_users": 3217211,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
-      "branch": "23.08",
-      "release": "23.08.21",
-      "tag_date": "2024-07-15",
-      "window_start": "2024-07-15",
-      "window_end": "2024-09-10",
-      "window_days": 57
+      "branch": "24.08",
+      "release": "24.08.22",
+      "tag_date": "2025-06-14",
+      "window_start": "2025-06-14",
+      "window_end": "2025-08-11",
+      "window_days": 58
     },
     {
       "date": "2025-09-02",
-      "active_users": 5555289,
+      "active_users": 3217211,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
-      "branch": "23.08",
-      "release": "23.08.21",
-      "tag_date": "2024-07-15",
-      "window_start": "2024-07-15",
-      "window_end": "2024-09-10",
-      "window_days": 57
+      "branch": "24.08",
+      "release": "24.08.22",
+      "tag_date": "2025-06-14",
+      "window_start": "2025-06-14",
+      "window_end": "2025-08-11",
+      "window_days": 58
     },
     {
       "date": "2025-09-08",
-      "active_users": 5555289,
+      "active_users": 3217211,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
-      "branch": "23.08",
-      "release": "23.08.21",
-      "tag_date": "2024-07-15",
-      "window_start": "2024-07-15",
-      "window_end": "2024-09-10",
-      "window_days": 57
+      "branch": "24.08",
+      "release": "24.08.22",
+      "tag_date": "2025-06-14",
+      "window_start": "2025-06-14",
+      "window_end": "2025-08-11",
+      "window_days": 58
     },
     {
       "date": "2025-09-09",
-      "active_users": 5555289,
+      "active_users": 3217211,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
-      "branch": "23.08",
-      "release": "23.08.21",
-      "tag_date": "2024-07-15",
-      "window_start": "2024-07-15",
-      "window_end": "2024-09-10",
-      "window_days": 57
+      "branch": "24.08",
+      "release": "24.08.22",
+      "tag_date": "2025-06-14",
+      "window_start": "2025-06-14",
+      "window_end": "2025-08-11",
+      "window_days": 58
     },
     {
       "date": "2025-09-29",
-      "active_users": 4103103,
+      "active_users": 3217211,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
-      "branch": "23.08",
-      "release": "23.08.23",
-      "tag_date": "2024-09-23",
-      "window_start": "2024-09-23",
-      "window_end": "2024-10-22",
-      "window_days": 29
+      "branch": "24.08",
+      "release": "24.08.22",
+      "tag_date": "2025-06-14",
+      "window_start": "2025-06-14",
+      "window_end": "2025-08-11",
+      "window_days": 58
     },
     {
       "date": "2025-10-15",
-      "active_users": 4103103,
+      "active_users": 3217211,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
-      "branch": "23.08",
-      "release": "23.08.23",
-      "tag_date": "2024-09-23",
-      "window_start": "2024-09-23",
-      "window_end": "2024-10-22",
-      "window_days": 29
+      "branch": "24.08",
+      "release": "24.08.22",
+      "tag_date": "2025-06-14",
+      "window_start": "2025-06-14",
+      "window_end": "2025-08-11",
+      "window_days": 58
     },
     {
       "date": "2025-10-16",
-      "active_users": 4103103,
+      "active_users": 3217211,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
-      "branch": "23.08",
-      "release": "23.08.23",
-      "tag_date": "2024-09-23",
-      "window_start": "2024-09-23",
-      "window_end": "2024-10-22",
-      "window_days": 29
+      "branch": "24.08",
+      "release": "24.08.22",
+      "tag_date": "2025-06-14",
+      "window_start": "2025-06-14",
+      "window_end": "2025-08-11",
+      "window_days": 58
     },
     {
       "date": "2025-10-31",
-      "active_users": 3544086,
+      "active_users": 3217211,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
-      "branch": "23.08",
-      "release": "23.08.27",
-      "tag_date": "2024-12-15",
-      "window_start": "2024-12-15",
-      "window_end": "2025-02-07",
-      "window_days": 54
+      "branch": "24.08",
+      "release": "24.08.22",
+      "tag_date": "2025-06-14",
+      "window_start": "2025-06-14",
+      "window_end": "2025-08-11",
+      "window_days": 58
     },
     {
       "date": "2025-11-12",
-      "active_users": 3544086,
+      "active_users": 3217211,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
-      "branch": "23.08",
-      "release": "23.08.27",
-      "tag_date": "2024-12-15",
-      "window_start": "2024-12-15",
-      "window_end": "2025-02-07",
-      "window_days": 54
+      "branch": "24.08",
+      "release": "24.08.22",
+      "tag_date": "2025-06-14",
+      "window_start": "2025-06-14",
+      "window_end": "2025-08-11",
+      "window_days": 58
     },
     {
       "date": "2025-11-17",
-      "active_users": 3544086,
+      "active_users": 3217211,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
-      "branch": "23.08",
-      "release": "23.08.27",
-      "tag_date": "2024-12-15",
-      "window_start": "2024-12-15",
-      "window_end": "2025-02-07",
-      "window_days": 54
+      "branch": "24.08",
+      "release": "24.08.22",
+      "tag_date": "2025-06-14",
+      "window_start": "2025-06-14",
+      "window_end": "2025-08-11",
+      "window_days": 58
     },
     {
       "date": "2025-11-28",
-      "active_users": 3544086,
+      "active_users": 3217211,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
-      "branch": "23.08",
-      "release": "23.08.27",
-      "tag_date": "2024-12-15",
-      "window_start": "2024-12-15",
-      "window_end": "2025-02-07",
-      "window_days": 54
+      "branch": "24.08",
+      "release": "24.08.22",
+      "tag_date": "2025-06-14",
+      "window_start": "2025-06-14",
+      "window_end": "2025-08-11",
+      "window_days": 58
     },
     {
       "date": "2025-12-18",
-      "active_users": 3544086,
+      "active_users": 3217211,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
-      "branch": "23.08",
-      "release": "23.08.27",
-      "tag_date": "2024-12-15",
-      "window_start": "2024-12-15",
-      "window_end": "2025-02-07",
-      "window_days": 54
+      "branch": "24.08",
+      "release": "24.08.22",
+      "tag_date": "2025-06-14",
+      "window_start": "2025-06-14",
+      "window_end": "2025-08-11",
+      "window_days": 58
     },
     {
       "date": "2026-01-21",
-      "active_users": 3544086,
+      "active_users": 3217211,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
-      "branch": "23.08",
-      "release": "23.08.27",
-      "tag_date": "2024-12-15",
-      "window_start": "2024-12-15",
-      "window_end": "2025-02-07",
-      "window_days": 54
+      "branch": "24.08",
+      "release": "24.08.22",
+      "tag_date": "2025-06-14",
+      "window_start": "2025-06-14",
+      "window_end": "2025-08-11",
+      "window_days": 58
     },
     {
       "date": "2026-01-22",
       "active_users": 4094519,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.28",
@@ -1901,6 +2157,7 @@
     {
       "date": "2026-03-09",
       "active_users": 4094519,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.28",
@@ -1912,6 +2169,7 @@
     {
       "date": "2026-03-24",
       "active_users": 4094519,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.28",
@@ -1923,6 +2181,7 @@
     {
       "date": "2026-04-16",
       "active_users": 4094519,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.28",
@@ -1934,6 +2193,7 @@
     {
       "date": "2026-04-27",
       "active_users": 4094519,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.28",
@@ -1945,6 +2205,7 @@
     {
       "date": "2026-04-29",
       "active_users": 4094519,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.28",
@@ -1956,6 +2217,7 @@
     {
       "date": "2026-04-30",
       "active_users": 4094519,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.28",
@@ -1967,6 +2229,7 @@
     {
       "date": "2026-05-23",
       "active_users": 4094519,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.28",
@@ -1978,6 +2241,7 @@
     {
       "date": "2026-06-05",
       "active_users": 4094519,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.28",
@@ -1989,6 +2253,7 @@
     {
       "date": "2026-06-20",
       "active_users": 4094519,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.28",
@@ -2000,6 +2265,7 @@
     {
       "date": "2026-07-02",
       "active_users": 4094519,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.28",
@@ -2011,6 +2277,7 @@
     {
       "date": "2026-07-08",
       "active_users": 4094519,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.28",
@@ -2021,42 +2288,70 @@
     },
     {
       "date": "2026-07-29",
-      "active_users": 4094519,
+      "active_users": 3790063,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
-      "branch": "24.08",
-      "release": "24.08.28",
-      "tag_date": "2025-11-16",
-      "window_start": "2025-11-17",
-      "window_end": "2026-01-22",
-      "window_days": 66
+      "branch": "25.08",
+      "release": "25.08.12",
+      "tag_date": "2026-05-21",
+      "window_start": "2026-05-23",
+      "window_end": "2026-06-20",
+      "window_days": 28
     },
     {
       "date": "2026-08-16",
-      "active_users": 4094519,
+      "active_users": 3790063,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
-      "branch": "24.08",
-      "release": "24.08.28",
-      "tag_date": "2025-11-16",
-      "window_start": "2025-11-17",
-      "window_end": "2026-01-22",
-      "window_days": 66
+      "branch": "25.08",
+      "release": "25.08.12",
+      "tag_date": "2026-05-21",
+      "window_start": "2026-05-23",
+      "window_end": "2026-06-20",
+      "window_days": 28
     },
     {
       "date": "2026-08-23",
-      "active_users": 4094519,
+      "active_users": 3790063,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
-      "branch": "24.08",
-      "release": "24.08.28",
-      "tag_date": "2025-11-16",
-      "window_start": "2025-11-17",
-      "window_end": "2026-01-22",
-      "window_days": 66
+      "branch": "25.08",
+      "release": "25.08.12",
+      "tag_date": "2026-05-21",
+      "window_start": "2026-05-23",
+      "window_end": "2026-06-20",
+      "window_days": 28
     }
   ],
   "measurements": [
     {
+      "date": "2018-08-14",
+      "active_users": 81,
+      "kind": "downloads",
+      "ref": "org.freedesktop.Platform",
+      "branch": "18.08",
+      "release": "18.08.0",
+      "tag_date": "2018-08-09",
+      "window_start": "2018-08-09",
+      "window_end": "2018-08-14",
+      "window_days": 5
+    },
+    {
+      "date": "2018-08-14",
+      "active_users": 0,
+      "kind": "downloads",
+      "ref": "org.freedesktop.Platform.GL.default",
+      "branch": "18.08",
+      "release": "18.08.0",
+      "tag_date": "2018-08-09",
+      "window_start": "2018-08-09",
+      "window_end": "2018-08-14",
+      "window_days": 5
+    },
+    {
       "date": "2018-08-16",
       "active_users": 695,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.1",
@@ -2068,6 +2363,7 @@
     {
       "date": "2018-08-16",
       "active_users": 0,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "18.08",
       "release": "18.08.1",
@@ -2079,6 +2375,7 @@
     {
       "date": "2018-08-22",
       "active_users": 3666,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.2",
@@ -2090,6 +2387,7 @@
     {
       "date": "2018-08-22",
       "active_users": 0,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "18.08",
       "release": "18.08.2",
@@ -2101,6 +2399,7 @@
     {
       "date": "2018-08-27",
       "active_users": 23360,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.5",
@@ -2112,6 +2411,7 @@
     {
       "date": "2018-08-27",
       "active_users": 0,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "18.08",
       "release": "18.08.5",
@@ -2123,6 +2423,7 @@
     {
       "date": "2018-08-30",
       "active_users": 14384,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.6",
@@ -2134,6 +2435,7 @@
     {
       "date": "2018-08-30",
       "active_users": 0,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "18.08",
       "release": "18.08.6",
@@ -2145,6 +2447,7 @@
     {
       "date": "2018-09-05",
       "active_users": 19381,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.7",
@@ -2156,6 +2459,7 @@
     {
       "date": "2018-09-05",
       "active_users": 0,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "18.08",
       "release": "18.08.7",
@@ -2167,6 +2471,7 @@
     {
       "date": "2018-09-13",
       "active_users": 22096,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.8",
@@ -2178,6 +2483,7 @@
     {
       "date": "2018-09-13",
       "active_users": 0,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "18.08",
       "release": "18.08.8",
@@ -2189,6 +2495,7 @@
     {
       "date": "2018-09-19",
       "active_users": 25443,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.9",
@@ -2200,6 +2507,7 @@
     {
       "date": "2018-09-19",
       "active_users": 0,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "18.08",
       "release": "18.08.9",
@@ -2211,6 +2519,7 @@
     {
       "date": "2018-09-25",
       "active_users": 25266,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.11",
@@ -2222,6 +2531,7 @@
     {
       "date": "2018-09-25",
       "active_users": 0,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "18.08",
       "release": "18.08.11",
@@ -2233,6 +2543,7 @@
     {
       "date": "2018-10-01",
       "active_users": 27974,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.12",
@@ -2244,6 +2555,7 @@
     {
       "date": "2018-10-01",
       "active_users": 0,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "18.08",
       "release": "18.08.12",
@@ -2255,6 +2567,7 @@
     {
       "date": "2018-10-14",
       "active_users": 32049,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.13",
@@ -2266,6 +2579,7 @@
     {
       "date": "2018-10-14",
       "active_users": 0,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "18.08",
       "release": "18.08.13",
@@ -2277,6 +2591,7 @@
     {
       "date": "2018-10-24",
       "active_users": 35221,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.14",
@@ -2288,6 +2603,7 @@
     {
       "date": "2018-10-24",
       "active_users": 0,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "18.08",
       "release": "18.08.14",
@@ -2299,6 +2615,7 @@
     {
       "date": "2018-10-30",
       "active_users": 31985,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.15",
@@ -2310,6 +2627,7 @@
     {
       "date": "2018-10-30",
       "active_users": 0,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "18.08",
       "release": "18.08.15",
@@ -2321,6 +2639,7 @@
     {
       "date": "2018-11-03",
       "active_users": 40259,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.17",
@@ -2332,6 +2651,7 @@
     {
       "date": "2018-11-03",
       "active_users": 0,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "18.08",
       "release": "18.08.17",
@@ -2343,6 +2663,7 @@
     {
       "date": "2018-11-15",
       "active_users": 41194,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.18",
@@ -2354,6 +2675,7 @@
     {
       "date": "2018-11-15",
       "active_users": 0,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "18.08",
       "release": "18.08.18",
@@ -2365,6 +2687,7 @@
     {
       "date": "2018-11-20",
       "active_users": 54620,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.19",
@@ -2376,6 +2699,7 @@
     {
       "date": "2018-11-20",
       "active_users": 0,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "18.08",
       "release": "18.08.19",
@@ -2387,6 +2711,7 @@
     {
       "date": "2018-12-22",
       "active_users": 56992,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.22",
@@ -2398,6 +2723,7 @@
     {
       "date": "2018-12-22",
       "active_users": 0,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "18.08",
       "release": "18.08.22",
@@ -2409,6 +2735,7 @@
     {
       "date": "2019-01-09",
       "active_users": 60680,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.23",
@@ -2420,6 +2747,7 @@
     {
       "date": "2019-01-09",
       "active_users": 0,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "18.08",
       "release": "18.08.23",
@@ -2431,6 +2759,7 @@
     {
       "date": "2019-01-10",
       "active_users": 4889,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.24",
@@ -2442,6 +2771,7 @@
     {
       "date": "2019-01-10",
       "active_users": 0,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "18.08",
       "release": "18.08.24",
@@ -2453,6 +2783,7 @@
     {
       "date": "2019-01-17",
       "active_users": 90549,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.25",
@@ -2464,6 +2795,7 @@
     {
       "date": "2019-01-17",
       "active_users": 0,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "18.08",
       "release": "18.08.25",
@@ -2475,6 +2807,7 @@
     {
       "date": "2019-02-06",
       "active_users": 82233,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.26",
@@ -2486,6 +2819,7 @@
     {
       "date": "2019-02-06",
       "active_users": 0,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "18.08",
       "release": "18.08.26",
@@ -2497,6 +2831,7 @@
     {
       "date": "2019-03-01",
       "active_users": 160066,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.27",
@@ -2508,6 +2843,7 @@
     {
       "date": "2019-03-01",
       "active_users": 0,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "18.08",
       "release": "18.08.27",
@@ -2519,6 +2855,7 @@
     {
       "date": "2019-03-28",
       "active_users": 181410,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.28",
@@ -2530,6 +2867,7 @@
     {
       "date": "2019-03-28",
       "active_users": 0,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "18.08",
       "release": "18.08.28",
@@ -2541,6 +2879,7 @@
     {
       "date": "2019-05-04",
       "active_users": 329175,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.29",
@@ -2552,6 +2891,7 @@
     {
       "date": "2019-05-04",
       "active_users": 0,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "18.08",
       "release": "18.08.29",
@@ -2563,6 +2903,7 @@
     {
       "date": "2019-05-24",
       "active_users": 213980,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.30",
@@ -2574,6 +2915,7 @@
     {
       "date": "2019-05-24",
       "active_users": 0,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "18.08",
       "release": "18.08.30",
@@ -2585,6 +2927,7 @@
     {
       "date": "2019-06-03",
       "active_users": 167097,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.31",
@@ -2596,6 +2939,7 @@
     {
       "date": "2019-06-03",
       "active_users": 0,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "18.08",
       "release": "18.08.31",
@@ -2607,6 +2951,7 @@
     {
       "date": "2019-07-06",
       "active_users": 254159,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.32",
@@ -2618,6 +2963,7 @@
     {
       "date": "2019-07-06",
       "active_users": 0,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "18.08",
       "release": "18.08.32",
@@ -2629,6 +2975,7 @@
     {
       "date": "2019-07-14",
       "active_users": 160646,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.33",
@@ -2640,6 +2987,7 @@
     {
       "date": "2019-07-14",
       "active_users": 0,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "18.08",
       "release": "18.08.33",
@@ -2651,6 +2999,7 @@
     {
       "date": "2019-09-01",
       "active_users": 319570,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.34",
@@ -2662,6 +3011,7 @@
     {
       "date": "2019-09-01",
       "active_users": 0,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "18.08",
       "release": "18.08.34",
@@ -2673,6 +3023,7 @@
     {
       "date": "2019-09-05",
       "active_users": 142160,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.35",
@@ -2684,6 +3035,7 @@
     {
       "date": "2019-09-05",
       "active_users": 0,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "18.08",
       "release": "18.08.35",
@@ -2693,8 +3045,33 @@
       "window_days": 4
     },
     {
+      "date": "2019-09-16",
+      "active_users": 36961,
+      "kind": "downloads",
+      "ref": "org.freedesktop.Platform",
+      "branch": "19.08",
+      "release": "19.08.0",
+      "tag_date": "2019-09-09",
+      "window_start": "2019-09-09",
+      "window_end": "2019-09-16",
+      "window_days": 7
+    },
+    {
+      "date": "2019-09-16",
+      "active_users": 44895,
+      "kind": "downloads",
+      "ref": "org.freedesktop.Platform.GL.default",
+      "branch": "19.08",
+      "release": "19.08.0",
+      "tag_date": "2019-09-09",
+      "window_start": "2019-09-09",
+      "window_end": "2019-09-16",
+      "window_days": 7
+    },
+    {
       "date": "2019-09-27",
       "active_users": 69190,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "19.08",
       "release": "19.08.1",
@@ -2706,6 +3083,7 @@
     {
       "date": "2019-09-27",
       "active_users": 110569,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "19.08",
       "release": "19.08.1",
@@ -2717,6 +3095,7 @@
     {
       "date": "2019-10-06",
       "active_users": 84400,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "19.08",
       "release": "19.08.2",
@@ -2728,6 +3107,7 @@
     {
       "date": "2019-10-06",
       "active_users": 146515,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "19.08",
       "release": "19.08.2",
@@ -2739,6 +3119,7 @@
     {
       "date": "2019-10-08",
       "active_users": 292072,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.36",
@@ -2750,6 +3131,7 @@
     {
       "date": "2019-10-08",
       "active_users": 0,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "18.08",
       "release": "18.08.36",
@@ -2761,6 +3143,7 @@
     {
       "date": "2019-11-20",
       "active_users": 559012,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.37",
@@ -2772,6 +3155,7 @@
     {
       "date": "2019-11-20",
       "active_users": 0,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "18.08",
       "release": "18.08.37",
@@ -2783,6 +3167,7 @@
     {
       "date": "2019-11-22",
       "active_users": 289835,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "19.08",
       "release": "19.08.3",
@@ -2794,6 +3179,7 @@
     {
       "date": "2019-11-22",
       "active_users": 378585,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "19.08",
       "release": "19.08.3",
@@ -2805,6 +3191,7 @@
     {
       "date": "2019-12-09",
       "active_users": 218896,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "19.08",
       "release": "19.08.4",
@@ -2816,6 +3203,7 @@
     {
       "date": "2019-12-09",
       "active_users": 295499,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "19.08",
       "release": "19.08.4",
@@ -2827,6 +3215,7 @@
     {
       "date": "2019-12-29",
       "active_users": 757069,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "18.08",
       "release": "18.08.38",
@@ -2838,6 +3227,7 @@
     {
       "date": "2019-12-29",
       "active_users": 0,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "18.08",
       "release": "18.08.38",
@@ -2849,6 +3239,7 @@
     {
       "date": "2020-01-14",
       "active_users": 336043,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "19.08",
       "release": "19.08.5",
@@ -2860,6 +3251,7 @@
     {
       "date": "2020-01-14",
       "active_users": 452721,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "19.08",
       "release": "19.08.5",
@@ -2871,6 +3263,7 @@
     {
       "date": "2020-02-05",
       "active_users": 253915,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "19.08",
       "release": "19.08.6",
@@ -2882,6 +3275,7 @@
     {
       "date": "2020-02-05",
       "active_users": 375952,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "19.08",
       "release": "19.08.6",
@@ -2893,6 +3287,7 @@
     {
       "date": "2020-03-03",
       "active_users": 150877,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "19.08",
       "release": "19.08.7",
@@ -2904,6 +3299,7 @@
     {
       "date": "2020-03-03",
       "active_users": 256250,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "19.08",
       "release": "19.08.7",
@@ -2915,6 +3311,7 @@
     {
       "date": "2020-03-19",
       "active_users": 273238,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "19.08",
       "release": "19.08.8",
@@ -2926,6 +3323,7 @@
     {
       "date": "2020-03-19",
       "active_users": 422978,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "19.08",
       "release": "19.08.8",
@@ -2937,6 +3335,7 @@
     {
       "date": "2020-05-03",
       "active_users": 465098,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "19.08",
       "release": "19.08.9",
@@ -2948,6 +3347,7 @@
     {
       "date": "2020-05-03",
       "active_users": 732932,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "19.08",
       "release": "19.08.9",
@@ -2959,6 +3359,7 @@
     {
       "date": "2020-06-01",
       "active_users": 402670,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "19.08",
       "release": "19.08.10",
@@ -2970,6 +3371,7 @@
     {
       "date": "2020-06-01",
       "active_users": 636434,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "19.08",
       "release": "19.08.10",
@@ -2981,6 +3383,7 @@
     {
       "date": "2020-07-10",
       "active_users": 449826,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "19.08",
       "release": "19.08.11",
@@ -2992,6 +3395,7 @@
     {
       "date": "2020-07-10",
       "active_users": 709478,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "19.08",
       "release": "19.08.11",
@@ -3001,8 +3405,33 @@
       "window_days": 39
     },
     {
+      "date": "2020-10-28",
+      "active_users": 580841,
+      "kind": "downloads",
+      "ref": "org.freedesktop.Platform",
+      "branch": "20.08",
+      "release": "20.08.0",
+      "tag_date": "2020-08-31",
+      "window_start": "2020-08-31",
+      "window_end": "2020-10-28",
+      "window_days": 58
+    },
+    {
+      "date": "2020-10-28",
+      "active_users": 847148,
+      "kind": "downloads",
+      "ref": "org.freedesktop.Platform.GL.default",
+      "branch": "20.08",
+      "release": "20.08.0",
+      "tag_date": "2020-08-31",
+      "window_start": "2020-08-31",
+      "window_end": "2020-10-28",
+      "window_days": 58
+    },
+    {
       "date": "2020-12-02",
       "active_users": 377579,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "20.08",
       "release": "20.08.1",
@@ -3014,6 +3443,7 @@
     {
       "date": "2020-12-02",
       "active_users": 568317,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
       "release": "20.08.1",
@@ -3025,6 +3455,7 @@
     {
       "date": "2020-12-30",
       "active_users": 420350,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "20.08",
       "release": "20.08.2",
@@ -3036,6 +3467,7 @@
     {
       "date": "2020-12-30",
       "active_users": 629457,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
       "release": "20.08.2",
@@ -3047,6 +3479,7 @@
     {
       "date": "2021-01-24",
       "active_users": 702117,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "19.08",
       "release": "19.08.12",
@@ -3058,6 +3491,7 @@
     {
       "date": "2021-01-24",
       "active_users": 1074312,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "19.08",
       "release": "19.08.12",
@@ -3069,6 +3503,7 @@
     {
       "date": "2021-02-08",
       "active_users": 516760,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "20.08",
       "release": "20.08.3",
@@ -3080,6 +3515,7 @@
     {
       "date": "2021-02-08",
       "active_users": 752228,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
       "release": "20.08.3",
@@ -3091,6 +3527,7 @@
     {
       "date": "2021-02-21",
       "active_users": 444266,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "20.08",
       "release": "20.08.4",
@@ -3102,6 +3539,7 @@
     {
       "date": "2021-02-21",
       "active_users": 643868,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
       "release": "20.08.4",
@@ -3113,6 +3551,7 @@
     {
       "date": "2021-03-06",
       "active_users": 446805,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "20.08",
       "release": "20.08.5",
@@ -3124,6 +3563,7 @@
     {
       "date": "2021-03-06",
       "active_users": 651890,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
       "release": "20.08.5",
@@ -3135,6 +3575,7 @@
     {
       "date": "2021-03-11",
       "active_users": 400185,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "19.08",
       "release": "19.08.13",
@@ -3146,6 +3587,7 @@
     {
       "date": "2021-03-11",
       "active_users": 672449,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "19.08",
       "release": "19.08.13",
@@ -3157,6 +3599,7 @@
     {
       "date": "2021-04-06",
       "active_users": 553884,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "20.08",
       "release": "20.08.6",
@@ -3168,6 +3611,7 @@
     {
       "date": "2021-04-06",
       "active_users": 787140,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
       "release": "20.08.6",
@@ -3179,6 +3623,7 @@
     {
       "date": "2021-04-13",
       "active_users": 400880,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "20.08",
       "release": "20.08.7",
@@ -3190,6 +3635,7 @@
     {
       "date": "2021-04-13",
       "active_users": 612683,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
       "release": "20.08.7",
@@ -3201,6 +3647,7 @@
     {
       "date": "2021-05-13",
       "active_users": 566606,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "20.08",
       "release": "20.08.8",
@@ -3212,6 +3659,7 @@
     {
       "date": "2021-05-13",
       "active_users": 834632,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
       "release": "20.08.8",
@@ -3223,6 +3671,7 @@
     {
       "date": "2021-05-19",
       "active_users": 392255,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "20.08",
       "release": "20.08.9",
@@ -3234,6 +3683,7 @@
     {
       "date": "2021-05-19",
       "active_users": 587063,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
       "release": "20.08.9",
@@ -3245,6 +3695,7 @@
     {
       "date": "2021-05-21",
       "active_users": 277210,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "20.08",
       "release": "20.08.10",
@@ -3256,6 +3707,7 @@
     {
       "date": "2021-05-21",
       "active_users": 402088,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
       "release": "20.08.10",
@@ -3267,6 +3719,7 @@
     {
       "date": "2021-05-29",
       "active_users": 490326,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "20.08",
       "release": "20.08.11",
@@ -3278,6 +3731,7 @@
     {
       "date": "2021-05-29",
       "active_users": 698447,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
       "release": "20.08.11",
@@ -3289,6 +3743,7 @@
     {
       "date": "2021-07-04",
       "active_users": 821594,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "20.08",
       "release": "20.08.13",
@@ -3300,6 +3755,7 @@
     {
       "date": "2021-07-04",
       "active_users": 1199206,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
       "release": "20.08.13",
@@ -3309,8 +3765,33 @@
       "window_days": 36
     },
     {
+      "date": "2021-09-05",
+      "active_users": 16811,
+      "kind": "downloads",
+      "ref": "org.freedesktop.Platform",
+      "branch": "21.08",
+      "release": "21.08.0",
+      "tag_date": "2021-09-01",
+      "window_start": "2021-09-01",
+      "window_end": "2021-09-05",
+      "window_days": 4
+    },
+    {
+      "date": "2021-09-05",
+      "active_users": 22868,
+      "kind": "downloads",
+      "ref": "org.freedesktop.Platform.GL.default",
+      "branch": "21.08",
+      "release": "21.08.0",
+      "tag_date": "2021-09-01",
+      "window_start": "2021-09-01",
+      "window_end": "2021-09-05",
+      "window_days": 4
+    },
+    {
       "date": "2021-09-09",
       "active_users": 791135,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "20.08",
       "release": "20.08.14",
@@ -3322,6 +3803,7 @@
     {
       "date": "2021-09-09",
       "active_users": 1111764,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
       "release": "20.08.14",
@@ -3333,6 +3815,7 @@
     {
       "date": "2021-09-10",
       "active_users": 30230,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "21.08",
       "release": "21.08.1",
@@ -3344,6 +3827,7 @@
     {
       "date": "2021-09-10",
       "active_users": 35657,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "21.08",
       "release": "21.08.1",
@@ -3355,6 +3839,7 @@
     {
       "date": "2021-09-17",
       "active_users": 501489,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "19.08",
       "release": "19.08.14",
@@ -3366,6 +3851,7 @@
     {
       "date": "2021-09-17",
       "active_users": 837516,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "19.08",
       "release": "19.08.14",
@@ -3377,6 +3863,7 @@
     {
       "date": "2021-09-20",
       "active_users": 73402,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "21.08",
       "release": "21.08.2",
@@ -3388,6 +3875,7 @@
     {
       "date": "2021-09-20",
       "active_users": 75948,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "21.08",
       "release": "21.08.2",
@@ -3399,6 +3887,7 @@
     {
       "date": "2021-09-27",
       "active_users": 24094,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "21.08",
       "release": "21.08.3",
@@ -3410,6 +3899,7 @@
     {
       "date": "2021-09-27",
       "active_users": 20479,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "21.08",
       "release": "21.08.3",
@@ -3421,6 +3911,7 @@
     {
       "date": "2021-11-17",
       "active_users": 649824,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "20.08",
       "release": "20.08.15",
@@ -3432,6 +3923,7 @@
     {
       "date": "2021-11-17",
       "active_users": 1105008,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
       "release": "20.08.15",
@@ -3443,6 +3935,7 @@
     {
       "date": "2021-11-22",
       "active_users": 374765,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "21.08",
       "release": "21.08.4",
@@ -3454,6 +3947,7 @@
     {
       "date": "2021-11-22",
       "active_users": 411694,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "21.08",
       "release": "21.08.4",
@@ -3465,6 +3959,7 @@
     {
       "date": "2021-11-25",
       "active_users": 258932,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "21.08",
       "release": "21.08.5",
@@ -3476,6 +3971,7 @@
     {
       "date": "2021-11-25",
       "active_users": 330169,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "21.08",
       "release": "21.08.5",
@@ -3487,6 +3983,7 @@
     {
       "date": "2021-12-14",
       "active_users": 195156,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "21.08",
       "release": "21.08.6",
@@ -3498,6 +3995,7 @@
     {
       "date": "2021-12-14",
       "active_users": 251912,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "21.08",
       "release": "21.08.6",
@@ -3509,6 +4007,7 @@
     {
       "date": "2022-01-02",
       "active_users": 447632,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "21.08",
       "release": "21.08.7",
@@ -3520,6 +4019,7 @@
     {
       "date": "2022-01-02",
       "active_users": 592957,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "21.08",
       "release": "21.08.7",
@@ -3531,6 +4031,7 @@
     {
       "date": "2022-01-08",
       "active_users": 312558,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "21.08",
       "release": "21.08.8",
@@ -3542,6 +4043,7 @@
     {
       "date": "2022-01-08",
       "active_users": 436346,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "21.08",
       "release": "21.08.8",
@@ -3553,6 +4055,7 @@
     {
       "date": "2022-01-10",
       "active_users": 517836,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "20.08",
       "release": "20.08.16",
@@ -3564,6 +4067,7 @@
     {
       "date": "2022-01-10",
       "active_users": 836977,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
       "release": "20.08.16",
@@ -3575,6 +4079,7 @@
     {
       "date": "2022-02-03",
       "active_users": 386750,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "20.08",
       "release": "20.08.17",
@@ -3586,6 +4091,7 @@
     {
       "date": "2022-02-03",
       "active_users": 598749,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
       "release": "20.08.17",
@@ -3597,6 +4103,7 @@
     {
       "date": "2022-02-04",
       "active_users": 519111,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "21.08",
       "release": "21.08.9",
@@ -3608,6 +4115,7 @@
     {
       "date": "2022-02-04",
       "active_users": 677182,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "21.08",
       "release": "21.08.9",
@@ -3619,6 +4127,7 @@
     {
       "date": "2022-03-02",
       "active_users": 546411,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "21.08",
       "release": "21.08.10",
@@ -3630,6 +4139,7 @@
     {
       "date": "2022-03-02",
       "active_users": 752399,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "21.08",
       "release": "21.08.10",
@@ -3641,6 +4151,7 @@
     {
       "date": "2022-03-25",
       "active_users": 578712,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "21.08",
       "release": "21.08.11",
@@ -3652,6 +4163,7 @@
     {
       "date": "2022-03-25",
       "active_users": 748202,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "21.08",
       "release": "21.08.11",
@@ -3663,6 +4175,7 @@
     {
       "date": "2022-04-11",
       "active_users": 487904,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "20.08",
       "release": "20.08.18",
@@ -3674,6 +4187,7 @@
     {
       "date": "2022-04-11",
       "active_users": 752448,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
       "release": "20.08.18",
@@ -3685,6 +4199,7 @@
     {
       "date": "2022-05-03",
       "active_users": 732402,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "21.08",
       "release": "21.08.12",
@@ -3696,6 +4211,7 @@
     {
       "date": "2022-05-03",
       "active_users": 952910,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "21.08",
       "release": "21.08.12",
@@ -3707,6 +4223,7 @@
     {
       "date": "2022-06-01",
       "active_users": 763147,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "21.08",
       "release": "21.08.13",
@@ -3718,6 +4235,7 @@
     {
       "date": "2022-06-01",
       "active_users": 1299746,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "21.08",
       "release": "21.08.13",
@@ -3729,6 +4247,7 @@
     {
       "date": "2022-08-04",
       "active_users": 991845,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "21.08",
       "release": "21.08.14",
@@ -3740,6 +4259,7 @@
     {
       "date": "2022-08-04",
       "active_users": 1196844,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "21.08",
       "release": "21.08.14",
@@ -3751,6 +4271,7 @@
     {
       "date": "2022-08-22",
       "active_users": 507800,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "20.08",
       "release": "20.08.19",
@@ -3762,6 +4283,7 @@
     {
       "date": "2022-08-22",
       "active_users": 961240,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
       "release": "20.08.19",
@@ -3771,8 +4293,33 @@
       "window_days": 133
     },
     {
+      "date": "2022-09-05",
+      "active_users": 118680,
+      "kind": "downloads",
+      "ref": "org.freedesktop.Platform",
+      "branch": "22.08",
+      "release": "22.08.0",
+      "tag_date": "2022-09-01",
+      "window_start": "2022-09-01",
+      "window_end": "2022-09-05",
+      "window_days": 4
+    },
+    {
+      "date": "2022-09-05",
+      "active_users": 110622,
+      "kind": "downloads",
+      "ref": "org.freedesktop.Platform.GL.default",
+      "branch": "22.08",
+      "release": "22.08.0",
+      "tag_date": "2022-09-01",
+      "window_start": "2022-09-01",
+      "window_end": "2022-09-05",
+      "window_days": 4
+    },
+    {
       "date": "2022-09-23",
       "active_users": 21053,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "20.08",
       "release": "20.08.20",
@@ -3784,6 +4331,7 @@
     {
       "date": "2022-09-23",
       "active_users": 55206,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "20.08",
       "release": "20.08.20",
@@ -3795,6 +4343,7 @@
     {
       "date": "2022-09-25",
       "active_users": 150605,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "22.08",
       "release": "22.08.1",
@@ -3806,6 +4355,7 @@
     {
       "date": "2022-09-25",
       "active_users": 90248,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.1",
@@ -3817,6 +4367,7 @@
     {
       "date": "2022-10-13",
       "active_users": 1494476,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "21.08",
       "release": "21.08.15",
@@ -3828,6 +4379,7 @@
     {
       "date": "2022-10-13",
       "active_users": 1869205,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "21.08",
       "release": "21.08.15",
@@ -3839,6 +4391,7 @@
     {
       "date": "2022-11-05",
       "active_users": 737881,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "22.08",
       "release": "22.08.2",
@@ -3850,6 +4403,7 @@
     {
       "date": "2022-11-05",
       "active_users": 96704,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.2",
@@ -3861,6 +4415,7 @@
     {
       "date": "2022-12-06",
       "active_users": 847119,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "22.08",
       "release": "22.08.3",
@@ -3872,6 +4427,7 @@
     {
       "date": "2022-12-06",
       "active_users": 1805566,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.3",
@@ -3883,6 +4439,7 @@
     {
       "date": "2022-12-22",
       "active_users": 1674416,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "21.08",
       "release": "21.08.16",
@@ -3894,6 +4451,7 @@
     {
       "date": "2022-12-22",
       "active_users": 1891395,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "21.08",
       "release": "21.08.16",
@@ -3905,6 +4463,7 @@
     {
       "date": "2023-01-11",
       "active_users": 1372901,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "22.08",
       "release": "22.08.4",
@@ -3916,6 +4475,7 @@
     {
       "date": "2023-01-11",
       "active_users": 2412887,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.4",
@@ -3927,6 +4487,7 @@
     {
       "date": "2023-01-27",
       "active_users": 1324553,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "22.08",
       "release": "22.08.5",
@@ -3938,6 +4499,7 @@
     {
       "date": "2023-01-27",
       "active_users": 2387126,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.5",
@@ -3949,6 +4511,7 @@
     {
       "date": "2023-01-31",
       "active_users": 1037162,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "21.08",
       "release": "21.08.17",
@@ -3960,6 +4523,7 @@
     {
       "date": "2023-01-31",
       "active_users": 1748326,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "21.08",
       "release": "21.08.17",
@@ -3971,6 +4535,7 @@
     {
       "date": "2023-02-02",
       "active_users": 943575,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "22.08",
       "release": "22.08.6",
@@ -3982,6 +4547,7 @@
     {
       "date": "2023-02-02",
       "active_users": 1074003,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.6",
@@ -3993,6 +4559,7 @@
     {
       "date": "2023-02-28",
       "active_users": 1295670,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "22.08",
       "release": "22.08.7",
@@ -4004,6 +4571,7 @@
     {
       "date": "2023-02-28",
       "active_users": 2462491,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.7",
@@ -4015,6 +4583,7 @@
     {
       "date": "2023-03-09",
       "active_users": 1361447,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "22.08",
       "release": "22.08.8",
@@ -4026,6 +4595,7 @@
     {
       "date": "2023-03-09",
       "active_users": 1962811,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.8",
@@ -4037,6 +4607,7 @@
     {
       "date": "2023-04-17",
       "active_users": 2733988,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "22.08",
       "release": "22.08.9",
@@ -4048,6 +4619,7 @@
     {
       "date": "2023-04-17",
       "active_users": 4404916,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.9",
@@ -4059,6 +4631,7 @@
     {
       "date": "2023-04-20",
       "active_users": 752872,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "22.08",
       "release": "22.08.10",
@@ -4070,6 +4643,7 @@
     {
       "date": "2023-04-20",
       "active_users": 1451755,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.10",
@@ -4081,6 +4655,7 @@
     {
       "date": "2023-06-02",
       "active_users": 2613644,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "22.08",
       "release": "22.08.11",
@@ -4092,6 +4667,7 @@
     {
       "date": "2023-06-02",
       "active_users": 4886761,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.11",
@@ -4103,6 +4679,7 @@
     {
       "date": "2023-06-25",
       "active_users": 2188737,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "21.08",
       "release": "21.08.18",
@@ -4114,6 +4691,7 @@
     {
       "date": "2023-06-25",
       "active_users": 2328572,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "22.08",
       "release": "22.08.12",
@@ -4125,6 +4703,7 @@
     {
       "date": "2023-06-25",
       "active_users": 3901942,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "21.08",
       "release": "21.08.18",
@@ -4136,6 +4715,7 @@
     {
       "date": "2023-06-25",
       "active_users": 3585716,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.12",
@@ -4147,6 +4727,7 @@
     {
       "date": "2023-07-30",
       "active_users": 797065,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "21.08",
       "release": "21.08.19",
@@ -4158,6 +4739,7 @@
     {
       "date": "2023-07-30",
       "active_users": 1160875,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "21.08",
       "release": "21.08.19",
@@ -4169,6 +4751,7 @@
     {
       "date": "2023-08-03",
       "active_users": 812481,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "22.08",
       "release": "22.08.13",
@@ -4180,6 +4763,7 @@
     {
       "date": "2023-08-03",
       "active_users": 1482496,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.13",
@@ -4191,6 +4775,7 @@
     {
       "date": "2023-08-29",
       "active_users": 588349,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "21.08",
       "release": "21.08.20",
@@ -4202,6 +4787,7 @@
     {
       "date": "2023-08-29",
       "active_users": 774968,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "21.08",
       "release": "21.08.20",
@@ -4213,6 +4799,7 @@
     {
       "date": "2023-09-03",
       "active_users": 2324392,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "22.08",
       "release": "22.08.14",
@@ -4224,6 +4811,7 @@
     {
       "date": "2023-09-03",
       "active_users": 3942371,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.14",
@@ -4233,8 +4821,33 @@
       "window_days": 31
     },
     {
+      "date": "2023-09-21",
+      "active_users": 893673,
+      "kind": "downloads",
+      "ref": "org.freedesktop.Platform",
+      "branch": "23.08",
+      "release": "23.08.0",
+      "tag_date": "2023-09-04",
+      "window_start": "2023-09-04",
+      "window_end": "2023-09-21",
+      "window_days": 17
+    },
+    {
+      "date": "2023-09-21",
+      "active_users": 1008889,
+      "kind": "downloads",
+      "ref": "org.freedesktop.Platform.GL.default",
+      "branch": "23.08",
+      "release": "23.08.0",
+      "tag_date": "2023-09-04",
+      "window_start": "2023-09-04",
+      "window_end": "2023-09-21",
+      "window_days": 17
+    },
+    {
       "date": "2023-10-02",
       "active_users": 761352,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "21.08",
       "release": "21.08.21",
@@ -4246,6 +4859,7 @@
     {
       "date": "2023-10-02",
       "active_users": 748126,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "21.08",
       "release": "21.08.21",
@@ -4257,6 +4871,7 @@
     {
       "date": "2023-10-04",
       "active_users": 469910,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "23.08",
       "release": "23.08.1",
@@ -4268,6 +4883,7 @@
     {
       "date": "2023-10-04",
       "active_users": 434923,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.1",
@@ -4279,6 +4895,7 @@
     {
       "date": "2023-10-05",
       "active_users": 2195127,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "22.08",
       "release": "22.08.15",
@@ -4290,6 +4907,7 @@
     {
       "date": "2023-10-05",
       "active_users": 3630233,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.15",
@@ -4301,6 +4919,7 @@
     {
       "date": "2023-10-12",
       "active_users": 622832,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "23.08",
       "release": "23.08.2",
@@ -4312,6 +4931,7 @@
     {
       "date": "2023-10-12",
       "active_users": 619262,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.2",
@@ -4323,6 +4943,7 @@
     {
       "date": "2023-10-18",
       "active_users": 1683754,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "22.08",
       "release": "22.08.16",
@@ -4334,6 +4955,7 @@
     {
       "date": "2023-10-18",
       "active_users": 2513114,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.16",
@@ -4345,6 +4967,7 @@
     {
       "date": "2023-10-20",
       "active_users": 810548,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "22.08",
       "release": "22.08.17",
@@ -4356,6 +4979,7 @@
     {
       "date": "2023-10-20",
       "active_users": 733575,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "23.08",
       "release": "23.08.3",
@@ -4367,6 +4991,7 @@
     {
       "date": "2023-10-20",
       "active_users": 783895,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.17",
@@ -4378,6 +5003,7 @@
     {
       "date": "2023-10-20",
       "active_users": 919636,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.3",
@@ -4389,6 +5015,7 @@
     {
       "date": "2023-10-21",
       "active_users": 275850,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "22.08",
       "release": "22.08.18",
@@ -4400,6 +5027,7 @@
     {
       "date": "2023-10-21",
       "active_users": 309213,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "23.08",
       "release": "23.08.4",
@@ -4411,6 +5039,7 @@
     {
       "date": "2023-10-21",
       "active_users": 412537,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.18",
@@ -4422,6 +5051,7 @@
     {
       "date": "2023-10-21",
       "active_users": 315883,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.4",
@@ -4433,6 +5063,7 @@
     {
       "date": "2023-10-29",
       "active_users": 691368,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "23.08",
       "release": "23.08.5",
@@ -4444,6 +5075,7 @@
     {
       "date": "2023-10-29",
       "active_users": 947338,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.5",
@@ -4455,6 +5087,7 @@
     {
       "date": "2023-11-29",
       "active_users": 1331937,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "23.08",
       "release": "23.08.6",
@@ -4466,6 +5099,7 @@
     {
       "date": "2023-11-29",
       "active_users": 1772832,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.6",
@@ -4477,6 +5111,7 @@
     {
       "date": "2023-12-05",
       "active_users": 1062187,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "23.08",
       "release": "23.08.7",
@@ -4488,6 +5123,7 @@
     {
       "date": "2023-12-05",
       "active_users": 1967894,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.7",
@@ -4499,6 +5135,7 @@
     {
       "date": "2023-12-15",
       "active_users": 2067189,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "22.08",
       "release": "22.08.19",
@@ -4510,6 +5147,7 @@
     {
       "date": "2023-12-15",
       "active_users": 3961612,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.19",
@@ -4521,6 +5159,7 @@
     {
       "date": "2023-12-24",
       "active_users": 1457205,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "23.08",
       "release": "23.08.8",
@@ -4532,6 +5171,7 @@
     {
       "date": "2023-12-24",
       "active_users": 2298123,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.8",
@@ -4543,6 +5183,7 @@
     {
       "date": "2024-01-05",
       "active_users": 978952,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "23.08",
       "release": "23.08.9",
@@ -4554,6 +5195,7 @@
     {
       "date": "2024-01-05",
       "active_users": 1820637,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.9",
@@ -4565,6 +5207,7 @@
     {
       "date": "2024-02-05",
       "active_users": 1904749,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "23.08",
       "release": "23.08.10",
@@ -4576,6 +5219,7 @@
     {
       "date": "2024-02-05",
       "active_users": 2855483,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.10",
@@ -4587,6 +5231,7 @@
     {
       "date": "2024-02-14",
       "active_users": 2509986,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "22.08",
       "release": "22.08.20",
@@ -4598,6 +5243,7 @@
     {
       "date": "2024-02-14",
       "active_users": 3748494,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.20",
@@ -4609,6 +5255,7 @@
     {
       "date": "2024-02-29",
       "active_users": 1670917,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "23.08",
       "release": "23.08.11",
@@ -4620,6 +5267,7 @@
     {
       "date": "2024-02-29",
       "active_users": 3263421,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.11",
@@ -4631,6 +5279,7 @@
     {
       "date": "2024-03-06",
       "active_users": 1241731,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "23.08",
       "release": "23.08.12",
@@ -4642,6 +5291,7 @@
     {
       "date": "2024-03-06",
       "active_users": 2295527,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.12",
@@ -4653,6 +5303,7 @@
     {
       "date": "2024-03-18",
       "active_users": 1590850,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "23.08",
       "release": "23.08.13",
@@ -4664,6 +5315,7 @@
     {
       "date": "2024-03-18",
       "active_users": 2453445,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.13",
@@ -4675,6 +5327,7 @@
     {
       "date": "2024-03-20",
       "active_users": 1384301,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "22.08",
       "release": "22.08.21",
@@ -4686,6 +5339,7 @@
     {
       "date": "2024-03-20",
       "active_users": 2773795,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.21",
@@ -4697,6 +5351,7 @@
     {
       "date": "2024-03-22",
       "active_users": 446507,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "22.08",
       "release": "22.08.22",
@@ -4708,6 +5363,7 @@
     {
       "date": "2024-03-22",
       "active_users": 835230,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.22",
@@ -4719,6 +5375,7 @@
     {
       "date": "2024-04-05",
       "active_users": 1139419,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "22.08",
       "release": "22.08.23",
@@ -4730,6 +5387,7 @@
     {
       "date": "2024-04-05",
       "active_users": 1664846,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.23",
@@ -4741,6 +5399,7 @@
     {
       "date": "2024-04-10",
       "active_users": 1998068,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "23.08",
       "release": "23.08.14",
@@ -4752,6 +5411,7 @@
     {
       "date": "2024-04-10",
       "active_users": 3206966,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.14",
@@ -4763,6 +5423,7 @@
     {
       "date": "2024-04-13",
       "active_users": 794592,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "23.08",
       "release": "23.08.15",
@@ -4774,6 +5435,7 @@
     {
       "date": "2024-04-13",
       "active_users": 1173764,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.15",
@@ -4785,6 +5447,7 @@
     {
       "date": "2024-04-28",
       "active_users": 1934113,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "23.08",
       "release": "23.08.16",
@@ -4796,6 +5459,7 @@
     {
       "date": "2024-04-28",
       "active_users": 2889805,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.16",
@@ -4807,6 +5471,7 @@
     {
       "date": "2024-05-24",
       "active_users": 2661426,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "23.08",
       "release": "23.08.17",
@@ -4818,6 +5483,7 @@
     {
       "date": "2024-05-24",
       "active_users": 4059686,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.17",
@@ -4829,6 +5495,7 @@
     {
       "date": "2024-05-25",
       "active_users": 191502,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "23.08",
       "release": "23.08.18",
@@ -4840,6 +5507,7 @@
     {
       "date": "2024-05-25",
       "active_users": 340979,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.18",
@@ -4851,6 +5519,7 @@
     {
       "date": "2024-06-10",
       "active_users": 1918460,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "23.08",
       "release": "23.08.19",
@@ -4862,6 +5531,7 @@
     {
       "date": "2024-06-10",
       "active_users": 3463864,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.19",
@@ -4873,6 +5543,7 @@
     {
       "date": "2024-06-14",
       "active_users": 1588401,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "22.08",
       "release": "22.08.24",
@@ -4884,6 +5555,7 @@
     {
       "date": "2024-06-14",
       "active_users": 2737587,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.24",
@@ -4895,6 +5567,7 @@
     {
       "date": "2024-07-15",
       "active_users": 2824491,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "23.08",
       "release": "23.08.20",
@@ -4906,6 +5579,7 @@
     {
       "date": "2024-07-15",
       "active_users": 4682310,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.20",
@@ -4917,6 +5591,7 @@
     {
       "date": "2024-09-10",
       "active_users": 1801918,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "22.08",
       "release": "22.08.25",
@@ -4928,6 +5603,7 @@
     {
       "date": "2024-09-10",
       "active_users": 2664976,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "23.08",
       "release": "23.08.21",
@@ -4939,6 +5615,7 @@
     {
       "date": "2024-09-10",
       "active_users": 2512360,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.25",
@@ -4950,6 +5627,7 @@
     {
       "date": "2024-09-10",
       "active_users": 5555289,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.21",
@@ -4959,8 +5637,33 @@
       "window_days": 57
     },
     {
+      "date": "2024-09-13",
+      "active_users": 77734,
+      "kind": "downloads",
+      "ref": "org.freedesktop.Platform",
+      "branch": "24.08",
+      "release": "24.08.0",
+      "tag_date": "2024-09-08",
+      "window_start": "2024-09-08",
+      "window_end": "2024-09-13",
+      "window_days": 5
+    },
+    {
+      "date": "2024-09-13",
+      "active_users": 102242,
+      "kind": "downloads",
+      "ref": "org.freedesktop.Platform.GL.default",
+      "branch": "24.08",
+      "release": "24.08.0",
+      "tag_date": "2024-09-08",
+      "window_start": "2024-09-08",
+      "window_end": "2024-09-13",
+      "window_days": 5
+    },
+    {
       "date": "2024-09-22",
       "active_users": 88141,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.1",
@@ -4972,6 +5675,7 @@
     {
       "date": "2024-09-22",
       "active_users": 81617,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.1",
@@ -4983,6 +5687,7 @@
     {
       "date": "2024-09-23",
       "active_users": 1805349,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "23.08",
       "release": "23.08.22",
@@ -4994,6 +5699,7 @@
     {
       "date": "2024-09-23",
       "active_users": 3016004,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.22",
@@ -5005,6 +5711,7 @@
     {
       "date": "2024-09-24",
       "active_users": 609505,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "22.08",
       "release": "22.08.26",
@@ -5016,6 +5723,7 @@
     {
       "date": "2024-09-24",
       "active_users": 835996,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.26",
@@ -5027,6 +5735,7 @@
     {
       "date": "2024-10-10",
       "active_users": 220218,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.2",
@@ -5038,6 +5747,7 @@
     {
       "date": "2024-10-10",
       "active_users": 348596,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.2",
@@ -5049,6 +5759,7 @@
     {
       "date": "2024-10-20",
       "active_users": 631876,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.3",
@@ -5060,6 +5771,7 @@
     {
       "date": "2024-10-20",
       "active_users": 874846,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.3",
@@ -5071,6 +5783,7 @@
     {
       "date": "2024-10-22",
       "active_users": 2894717,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "23.08",
       "release": "23.08.23",
@@ -5082,6 +5795,7 @@
     {
       "date": "2024-10-22",
       "active_users": 4103103,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.23",
@@ -5093,6 +5807,7 @@
     {
       "date": "2024-10-29",
       "active_users": 1507997,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "23.08",
       "release": "23.08.24",
@@ -5104,6 +5819,7 @@
     {
       "date": "2024-10-29",
       "active_users": 865037,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.4",
@@ -5115,6 +5831,7 @@
     {
       "date": "2024-10-29",
       "active_users": 1766231,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.24",
@@ -5126,6 +5843,7 @@
     {
       "date": "2024-10-29",
       "active_users": 1030049,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.4",
@@ -5137,6 +5855,7 @@
     {
       "date": "2024-11-08",
       "active_users": 1007678,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.5",
@@ -5148,6 +5867,7 @@
     {
       "date": "2024-11-08",
       "active_users": 1366242,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.5",
@@ -5159,6 +5879,7 @@
     {
       "date": "2024-11-21",
       "active_users": 938886,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.6",
@@ -5170,6 +5891,7 @@
     {
       "date": "2024-11-21",
       "active_users": 1122466,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.6",
@@ -5181,6 +5903,7 @@
     {
       "date": "2024-12-14",
       "active_users": 2891475,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "23.08",
       "release": "23.08.25",
@@ -5192,6 +5915,7 @@
     {
       "date": "2024-12-14",
       "active_users": 1144349,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.7",
@@ -5203,6 +5927,7 @@
     {
       "date": "2024-12-14",
       "active_users": 3083714,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.25",
@@ -5214,6 +5939,7 @@
     {
       "date": "2024-12-14",
       "active_users": 1626525,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.7",
@@ -5225,6 +5951,7 @@
     {
       "date": "2024-12-15",
       "active_users": 74529,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "23.08",
       "release": "23.08.26",
@@ -5236,6 +5963,7 @@
     {
       "date": "2024-12-15",
       "active_users": 62277,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.8",
@@ -5247,6 +5975,7 @@
     {
       "date": "2024-12-15",
       "active_users": 96140,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.26",
@@ -5258,6 +5987,7 @@
     {
       "date": "2024-12-15",
       "active_users": 93968,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.8",
@@ -5269,6 +5999,7 @@
     {
       "date": "2025-01-02",
       "active_users": 1678606,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.9",
@@ -5280,6 +6011,7 @@
     {
       "date": "2025-01-02",
       "active_users": 2261337,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.9",
@@ -5291,6 +6023,7 @@
     {
       "date": "2025-02-06",
       "active_users": 1602454,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.10",
@@ -5302,6 +6035,7 @@
     {
       "date": "2025-02-06",
       "active_users": 2297755,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.10",
@@ -5313,6 +6047,7 @@
     {
       "date": "2025-02-07",
       "active_users": 2691319,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "23.08",
       "release": "23.08.27",
@@ -5324,6 +6059,7 @@
     {
       "date": "2025-02-07",
       "active_users": 3544086,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.27",
@@ -5335,6 +6071,7 @@
     {
       "date": "2025-02-24",
       "active_users": 1539147,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.11",
@@ -5346,6 +6083,7 @@
     {
       "date": "2025-02-24",
       "active_users": 2017930,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.11",
@@ -5357,6 +6095,7 @@
     {
       "date": "2025-02-27",
       "active_users": 785705,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.12",
@@ -5368,6 +6107,7 @@
     {
       "date": "2025-02-27",
       "active_users": 1283118,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.12",
@@ -5379,6 +6119,7 @@
     {
       "date": "2025-03-04",
       "active_users": 1170449,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.13",
@@ -5390,6 +6131,7 @@
     {
       "date": "2025-03-04",
       "active_users": 1644576,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.13",
@@ -5401,6 +6143,7 @@
     {
       "date": "2025-03-14",
       "active_users": 1479996,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.14",
@@ -5412,6 +6155,7 @@
     {
       "date": "2025-03-14",
       "active_users": 1698897,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.14",
@@ -5423,6 +6167,7 @@
     {
       "date": "2025-03-16",
       "active_users": 572182,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.15",
@@ -5434,6 +6179,7 @@
     {
       "date": "2025-03-16",
       "active_users": 756786,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.15",
@@ -5445,6 +6191,7 @@
     {
       "date": "2025-03-24",
       "active_users": 1850018,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "23.08",
       "release": "23.08.28",
@@ -5456,6 +6203,7 @@
     {
       "date": "2025-03-24",
       "active_users": 2882433,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.28",
@@ -5467,6 +6215,7 @@
     {
       "date": "2025-04-07",
       "active_users": 1146664,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "23.08",
       "release": "23.08.29",
@@ -5478,6 +6227,7 @@
     {
       "date": "2025-04-07",
       "active_users": 1588047,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.29",
@@ -5489,6 +6239,7 @@
     {
       "date": "2025-04-10",
       "active_users": 2053050,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.16",
@@ -5500,6 +6251,7 @@
     {
       "date": "2025-04-10",
       "active_users": 2540824,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.16",
@@ -5511,6 +6263,7 @@
     {
       "date": "2025-04-23",
       "active_users": 1726528,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.17",
@@ -5522,6 +6275,7 @@
     {
       "date": "2025-04-23",
       "active_users": 2254729,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.17",
@@ -5533,6 +6287,7 @@
     {
       "date": "2025-05-07",
       "active_users": 1854302,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.18",
@@ -5544,6 +6299,7 @@
     {
       "date": "2025-05-07",
       "active_users": 2509307,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.18",
@@ -5555,6 +6311,7 @@
     {
       "date": "2025-05-12",
       "active_users": 1509077,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "23.08",
       "release": "23.08.30",
@@ -5566,6 +6323,7 @@
     {
       "date": "2025-05-12",
       "active_users": 2154335,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.30",
@@ -5577,6 +6335,7 @@
     {
       "date": "2025-06-06",
       "active_users": 2498142,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.19",
@@ -5588,6 +6347,7 @@
     {
       "date": "2025-06-06",
       "active_users": 2931244,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.19",
@@ -5599,6 +6359,7 @@
     {
       "date": "2025-06-11",
       "active_users": 1195097,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.20",
@@ -5610,6 +6371,7 @@
     {
       "date": "2025-06-11",
       "active_users": 1678626,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.20",
@@ -5621,6 +6383,7 @@
     {
       "date": "2025-06-14",
       "active_users": 1088232,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.21",
@@ -5632,6 +6395,7 @@
     {
       "date": "2025-06-14",
       "active_users": 1152976,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.21",
@@ -5643,6 +6407,7 @@
     {
       "date": "2025-07-04",
       "active_users": 1476019,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "23.08",
       "release": "23.08.31",
@@ -5654,6 +6419,7 @@
     {
       "date": "2025-07-04",
       "active_users": 2118990,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.31",
@@ -5665,6 +6431,7 @@
     {
       "date": "2025-08-11",
       "active_users": 2731500,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.22",
@@ -5676,6 +6443,7 @@
     {
       "date": "2025-08-11",
       "active_users": 3217211,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.22",
@@ -5687,6 +6455,7 @@
     {
       "date": "2025-08-28",
       "active_users": 1887985,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.23",
@@ -5698,6 +6467,7 @@
     {
       "date": "2025-08-28",
       "active_users": 2283641,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.23",
@@ -5709,6 +6479,7 @@
     {
       "date": "2025-09-02",
       "active_users": 1300084,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "23.08",
       "release": "23.08.32",
@@ -5720,6 +6491,7 @@
     {
       "date": "2025-09-02",
       "active_users": 1945777,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.32",
@@ -5731,6 +6503,7 @@
     {
       "date": "2025-09-08",
       "active_users": 1514875,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.24",
@@ -5742,6 +6515,7 @@
     {
       "date": "2025-09-08",
       "active_users": 2051147,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.24",
@@ -5753,6 +6527,7 @@
     {
       "date": "2025-09-09",
       "active_users": 1686047,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "22.08",
       "release": "22.08.27",
@@ -5764,6 +6539,7 @@
     {
       "date": "2025-09-09",
       "active_users": 1965886,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "22.08",
       "release": "22.08.27",
@@ -5775,6 +6551,7 @@
     {
       "date": "2025-09-29",
       "active_users": 923729,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "23.08",
       "release": "23.08.33",
@@ -5786,6 +6563,7 @@
     {
       "date": "2025-09-29",
       "active_users": 2117375,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.25",
@@ -5796,7 +6574,20 @@
     },
     {
       "date": "2025-09-29",
+      "active_users": 1037094,
+      "kind": "downloads",
+      "ref": "org.freedesktop.Platform",
+      "branch": "25.08",
+      "release": "25.08.0",
+      "tag_date": "2025-09-01",
+      "window_start": "2025-09-01",
+      "window_end": "2025-09-29",
+      "window_days": 28
+    },
+    {
+      "date": "2025-09-29",
       "active_users": 1343122,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "23.08",
       "release": "23.08.33",
@@ -5808,6 +6599,7 @@
     {
       "date": "2025-09-29",
       "active_users": 2583051,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.25",
@@ -5817,8 +6609,21 @@
       "window_days": 21
     },
     {
+      "date": "2025-09-29",
+      "active_users": 1875105,
+      "kind": "downloads",
+      "ref": "org.freedesktop.Platform.GL.default",
+      "branch": "25.08",
+      "release": "25.08.0",
+      "tag_date": "2025-09-01",
+      "window_start": "2025-09-01",
+      "window_end": "2025-09-29",
+      "window_days": 28
+    },
+    {
       "date": "2025-10-15",
       "active_users": 1970665,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.26",
@@ -5830,6 +6635,7 @@
     {
       "date": "2025-10-15",
       "active_users": 2408000,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.26",
@@ -5841,6 +6647,7 @@
     {
       "date": "2025-10-16",
       "active_users": 421798,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "25.08",
       "release": "25.08.1",
@@ -5852,6 +6659,7 @@
     {
       "date": "2025-10-16",
       "active_users": 813129,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "25.08",
       "release": "25.08.1",
@@ -5863,6 +6671,7 @@
     {
       "date": "2025-10-31",
       "active_users": 922570,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "25.08",
       "release": "25.08.2",
@@ -5874,6 +6683,7 @@
     {
       "date": "2025-10-31",
       "active_users": 1468950,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "25.08",
       "release": "25.08.2",
@@ -5885,6 +6695,7 @@
     {
       "date": "2025-11-12",
       "active_users": 1031992,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "25.08",
       "release": "25.08.3",
@@ -5896,6 +6707,7 @@
     {
       "date": "2025-11-12",
       "active_users": 1609356,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "25.08",
       "release": "25.08.3",
@@ -5907,6 +6719,7 @@
     {
       "date": "2025-11-17",
       "active_users": 2166325,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.27",
@@ -5918,6 +6731,7 @@
     {
       "date": "2025-11-17",
       "active_users": 2894105,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.27",
@@ -5929,6 +6743,7 @@
     {
       "date": "2025-11-28",
       "active_users": 2212435,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "25.08",
       "release": "25.08.4",
@@ -5940,6 +6755,7 @@
     {
       "date": "2025-11-28",
       "active_users": 2914517,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "25.08",
       "release": "25.08.4",
@@ -5951,6 +6767,7 @@
     {
       "date": "2025-12-18",
       "active_users": 1499566,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "25.08",
       "release": "25.08.5",
@@ -5962,6 +6779,7 @@
     {
       "date": "2025-12-18",
       "active_users": 2011235,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "25.08",
       "release": "25.08.5",
@@ -5973,6 +6791,7 @@
     {
       "date": "2026-01-21",
       "active_users": 1884036,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "25.08",
       "release": "25.08.6",
@@ -5984,6 +6803,7 @@
     {
       "date": "2026-01-21",
       "active_users": 2628378,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "25.08",
       "release": "25.08.6",
@@ -5995,6 +6815,7 @@
     {
       "date": "2026-01-22",
       "active_users": 2789839,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.28",
@@ -6006,6 +6827,7 @@
     {
       "date": "2026-01-22",
       "active_users": 4094519,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.28",
@@ -6017,6 +6839,7 @@
     {
       "date": "2026-03-09",
       "active_users": 2380096,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "25.08",
       "release": "25.08.7",
@@ -6028,6 +6851,7 @@
     {
       "date": "2026-03-09",
       "active_users": 3516213,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "25.08",
       "release": "25.08.7",
@@ -6039,6 +6863,7 @@
     {
       "date": "2026-03-24",
       "active_users": 2432489,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.29",
@@ -6050,6 +6875,7 @@
     {
       "date": "2026-03-24",
       "active_users": 3324444,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.29",
@@ -6061,6 +6887,7 @@
     {
       "date": "2026-04-16",
       "active_users": 2703247,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "25.08",
       "release": "25.08.8",
@@ -6072,6 +6899,7 @@
     {
       "date": "2026-04-16",
       "active_users": 3457249,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "25.08",
       "release": "25.08.8",
@@ -6083,6 +6911,7 @@
     {
       "date": "2026-04-27",
       "active_users": 2083047,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "25.08",
       "release": "25.08.9",
@@ -6094,6 +6923,7 @@
     {
       "date": "2026-04-27",
       "active_users": 2626263,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "25.08",
       "release": "25.08.9",
@@ -6105,6 +6935,7 @@
     {
       "date": "2026-04-29",
       "active_users": 1797617,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.30",
@@ -6116,6 +6947,7 @@
     {
       "date": "2026-04-29",
       "active_users": 2757489,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.30",
@@ -6127,6 +6959,7 @@
     {
       "date": "2026-04-30",
       "active_users": 1475439,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "25.08",
       "release": "25.08.10",
@@ -6138,6 +6971,7 @@
     {
       "date": "2026-04-30",
       "active_users": 1695970,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "25.08",
       "release": "25.08.10",
@@ -6149,6 +6983,7 @@
     {
       "date": "2026-05-23",
       "active_users": 1435697,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.31",
@@ -6160,6 +6995,7 @@
     {
       "date": "2026-05-23",
       "active_users": 2789510,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "25.08",
       "release": "25.08.11",
@@ -6171,6 +7007,7 @@
     {
       "date": "2026-05-23",
       "active_users": 2034554,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.31",
@@ -6182,6 +7019,7 @@
     {
       "date": "2026-05-23",
       "active_users": 3386657,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "25.08",
       "release": "25.08.11",
@@ -6193,6 +7031,7 @@
     {
       "date": "2026-06-05",
       "active_users": 194587,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.32",
@@ -6204,6 +7043,7 @@
     {
       "date": "2026-06-05",
       "active_users": 293243,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.32",
@@ -6215,6 +7055,7 @@
     {
       "date": "2026-06-20",
       "active_users": 2890640,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "25.08",
       "release": "25.08.12",
@@ -6226,6 +7067,7 @@
     {
       "date": "2026-06-20",
       "active_users": 3790063,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "25.08",
       "release": "25.08.12",
@@ -6237,6 +7079,7 @@
     {
       "date": "2026-07-02",
       "active_users": 1201960,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.33",
@@ -6248,6 +7091,7 @@
     {
       "date": "2026-07-02",
       "active_users": 1814526,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.33",
@@ -6259,6 +7103,7 @@
     {
       "date": "2026-07-08",
       "active_users": 2674516,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "25.08",
       "release": "25.08.13",
@@ -6270,6 +7115,7 @@
     {
       "date": "2026-07-08",
       "active_users": 3500606,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "25.08",
       "release": "25.08.13",
@@ -6281,6 +7127,7 @@
     {
       "date": "2026-07-29",
       "active_users": 1015518,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.34",
@@ -6292,6 +7139,7 @@
     {
       "date": "2026-07-29",
       "active_users": 2887611,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "25.08",
       "release": "25.08.14",
@@ -6303,6 +7151,7 @@
     {
       "date": "2026-07-29",
       "active_users": 1717020,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.34",
@@ -6314,6 +7163,7 @@
     {
       "date": "2026-07-29",
       "active_users": 3529660,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "25.08",
       "release": "25.08.14",
@@ -6325,6 +7175,7 @@
     {
       "date": "2026-08-16",
       "active_users": 2748441,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "25.08",
       "release": "25.08.15",
@@ -6336,6 +7187,7 @@
     {
       "date": "2026-08-16",
       "active_users": 3396585,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "25.08",
       "release": "25.08.15",
@@ -6347,6 +7199,7 @@
     {
       "date": "2026-08-23",
       "active_users": 906264,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "24.08",
       "release": "24.08.35",
@@ -6358,6 +7211,7 @@
     {
       "date": "2026-08-23",
       "active_users": 1518409,
+      "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "24.08",
       "release": "24.08.35",

@@ -1,14 +1,15 @@
 {
-  "active_users": 4094519,
+  "active_users": 3790063,
   "as_of": "2026-08-23",
-  "based_on_release": "24.08.28",
-  "branch": "24.08",
-  "generated_at": "2026-09-10T15:53:56.647834+00:00",
+  "based_on_release": "25.08.12",
+  "branch": "25.08",
+  "generated_at": "2026-09-10T16:23:22.797513+00:00",
+  "kind": "updates",
   "note": null,
   "ref": "org.freedesktop.Platform.GL.default",
   "window": {
-    "days": 66,
-    "end": "2026-01-22",
-    "start": "2025-11-17"
+    "days": 28,
+    "end": "2026-06-20",
+    "start": "2026-05-23"
   }
 }
