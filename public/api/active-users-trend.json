@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-14T12:47:00.163761+00:00",
+  "generated_at": "2026-09-15T11:44:27.558712+00:00",
   "trailing_days": 180,
   "refs": [
     "org.freedesktop.Platform.GL.default",
@@ -2540,6 +2540,19 @@
       "window_end": "2026-06-20",
       "window_days": 28,
       "days_with_data": 28
+    },
+    {
+      "date": "2026-09-15",
+      "active_users": 4354505,
+      "kind": "updates",
+      "ref": "org.freedesktop.Platform.GL.default",
+      "branch": "25.08",
+      "release": "25.08.16",
+      "tag_date": "2026-08-16",
+      "window_start": "2026-08-16",
+      "window_end": "2026-09-15",
+      "window_days": 30,
+      "days_with_data": 30
     }
   ],
   "measurements": [
@@ -7443,6 +7456,58 @@
       "window_end": "2026-08-23",
       "window_days": 25,
       "days_with_data": 25
+    },
+    {
+      "date": "2026-09-15",
+      "active_users": 3249287,
+      "kind": "updates",
+      "ref": "org.freedesktop.Platform",
+      "branch": "25.08",
+      "release": "25.08.16",
+      "tag_date": "2026-08-16",
+      "window_start": "2026-08-16",
+      "window_end": "2026-09-15",
+      "window_days": 30,
+      "days_with_data": 30
+    },
+    {
+      "date": "2026-09-15",
+      "active_users": 529344,
+      "kind": "downloads",
+      "ref": "org.freedesktop.Platform",
+      "branch": "26.08",
+      "release": "26.08.0",
+      "tag_date": "2026-09-01",
+      "window_start": "2026-09-01",
+      "window_end": "2026-09-15",
+      "window_days": 14,
+      "days_with_data": 14
+    },
+    {
+      "date": "2026-09-15",
+      "active_users": 4354505,
+      "kind": "updates",
+      "ref": "org.freedesktop.Platform.GL.default",
+      "branch": "25.08",
+      "release": "25.08.16",
+      "tag_date": "2026-08-16",
+      "window_start": "2026-08-16",
+      "window_end": "2026-09-15",
+      "window_days": 30,
+      "days_with_data": 30
+    },
+    {
+      "date": "2026-09-15",
+      "active_users": 685484,
+      "kind": "downloads",
+      "ref": "org.freedesktop.Platform.GL.default",
+      "branch": "26.08",
+      "release": "26.08.0",
+      "tag_date": "2026-09-01",
+      "window_start": "2026-09-01",
+      "window_end": "2026-09-15",
+      "window_days": 14,
+      "days_with_data": 14
     }
   ]
 }

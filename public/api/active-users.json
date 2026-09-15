@@ -1,18 +1,18 @@
 {
-  "active_users": 3790063,
-  "active_users_display": "3.79+ million",
-  "active_users_rounded": 3790000,
-  "as_of": "2026-08-23",
-  "based_on_release": "25.08.12",
+  "active_users": 4354505,
+  "active_users_display": "4.35+ million",
+  "active_users_rounded": 4350000,
+  "as_of": "2026-09-15",
+  "based_on_release": "25.08.16",
   "branch": "25.08",
-  "generated_at": "2026-09-14T12:47:00.163761+00:00",
+  "generated_at": "2026-09-15T11:44:27.558712+00:00",
   "kind": "updates",
   "note": null,
   "ref": "org.freedesktop.Platform.GL.default",
   "window": {
-    "days": 28,
-    "days_with_data": 28,
-    "end": "2026-06-20",
-    "start": "2026-05-23"
+    "days": 30,
+    "days_with_data": 30,
+    "end": "2026-09-15",
+    "start": "2026-08-16"
   }
 }
