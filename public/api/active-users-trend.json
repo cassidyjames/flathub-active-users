@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22T11:52:13.559216+00:00",
+  "generated_at": "2026-10-23T11:38:55.033231+00:00",
   "trailing_days": 180,
   "refs": [
     "org.freedesktop.Platform.GL.default",
@@ -2594,7 +2594,7 @@
       "days_with_data": 28
     },
     {
-      "date": "2026-10-21",
+      "date": "2026-10-22",
       "active_users": 5218489,
       "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
@@ -7640,56 +7640,56 @@
       "days_with_data": 28
     },
     {
-      "date": "2026-10-21",
-      "active_users": 2138105,
+      "date": "2026-10-22",
+      "active_users": 2371044,
       "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "25.08",
       "release": "25.08.18",
       "tag_date": "2026-10-13",
       "window_start": "2026-10-13",
-      "window_end": "2026-10-21",
-      "window_days": 8,
-      "days_with_data": 8
+      "window_end": "2026-10-22",
+      "window_days": 9,
+      "days_with_data": 9
     },
     {
-      "date": "2026-10-21",
-      "active_users": 932037,
+      "date": "2026-10-22",
+      "active_users": 936688,
       "kind": "updates",
       "ref": "org.freedesktop.Platform",
       "branch": "26.08",
       "release": "26.08.2",
       "tag_date": "2026-09-28",
       "window_start": "2026-09-28",
-      "window_end": "2026-10-21",
-      "window_days": 23,
-      "days_with_data": 23
+      "window_end": "2026-10-22",
+      "window_days": 24,
+      "days_with_data": 24
     },
     {
-      "date": "2026-10-21",
-      "active_users": 2803840,
+      "date": "2026-10-22",
+      "active_users": 3107275,
       "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "25.08",
       "release": "25.08.18",
       "tag_date": "2026-10-13",
       "window_start": "2026-10-13",
-      "window_end": "2026-10-21",
-      "window_days": 8,
-      "days_with_data": 8
+      "window_end": "2026-10-22",
+      "window_days": 9,
+      "days_with_data": 9
     },
     {
-      "date": "2026-10-21",
-      "active_users": 1159798,
+      "date": "2026-10-22",
+      "active_users": 1165705,
       "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
       "branch": "26.08",
       "release": "26.08.2",
       "tag_date": "2026-09-28",
       "window_start": "2026-09-28",
-      "window_end": "2026-10-21",
-      "window_days": 23,
-      "days_with_data": 23
+      "window_end": "2026-10-22",
+      "window_days": 24,
+      "days_with_data": 24
     }
   ]
 }
