@@ -1129,6 +1129,11 @@
         "date": "2026-10-21",
         "point": 19,
         "version": "25.08.19"
+      },
+      {
+        "date": "2026-11-16",
+        "point": 20,
+        "version": "25.08.20"
       }
     ],
     "26.08": [
@@ -1159,6 +1164,6 @@
       }
     ]
   },
-  "generated_at": "2026-11-16T15:45:30.511675+00:00",
+  "generated_at": "2026-11-17T15:59:05.744321+00:00",
   "source": "https://gitlab.com/freedesktop-sdk/freedesktop-sdk/-/tags"
 }

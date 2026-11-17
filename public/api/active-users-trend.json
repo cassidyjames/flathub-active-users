@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16T15:45:30.733031+00:00",
+  "generated_at": "2026-11-17T15:59:05.916907+00:00",
   "trailing_days": 180,
   "refs": [
     "org.freedesktop.Platform.GL.default",
@@ -2608,6 +2608,19 @@
     },
     {
       "date": "2026-10-26",
+      "active_users": 5218489,
+      "kind": "updates",
+      "ref": "org.freedesktop.Platform.GL.default",
+      "branch": "25.08",
+      "release": "25.08.17",
+      "tag_date": "2026-09-15",
+      "window_start": "2026-09-15",
+      "window_end": "2026-10-13",
+      "window_days": 28,
+      "days_with_data": 28
+    },
+    {
+      "date": "2026-11-16",
       "active_users": 5218489,
       "kind": "updates",
       "ref": "org.freedesktop.Platform.GL.default",
@@ -7729,6 +7742,32 @@
       "window_end": "2026-10-26",
       "window_days": 4,
       "days_with_data": 4
+    },
+    {
+      "date": "2026-11-16",
+      "active_users": 2948154,
+      "kind": "updates",
+      "ref": "org.freedesktop.Platform",
+      "branch": "25.08",
+      "release": "25.08.19",
+      "tag_date": "2026-10-21",
+      "window_start": "2026-10-22",
+      "window_end": "2026-11-16",
+      "window_days": 25,
+      "days_with_data": 25
+    },
+    {
+      "date": "2026-11-16",
+      "active_users": 3956128,
+      "kind": "updates",
+      "ref": "org.freedesktop.Platform.GL.default",
+      "branch": "25.08",
+      "release": "25.08.19",
+      "tag_date": "2026-10-21",
+      "window_start": "2026-10-22",
+      "window_end": "2026-11-16",
+      "window_days": 25,
+      "days_with_data": 25
     }
   ]
 }
